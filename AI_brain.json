@@ -34,6 +34,7 @@
             "how's your day",
             "how's everything",
             "what's new",
+            "what's new with you",
             "how's life"
         ],
         "responses": [
@@ -42,8 +43,9 @@
             "I'm good, how about you?",
             "I'm feeling the love today!",
             "I'm great, thinking about Valentine's Day. How about you?",
-            "Living the bot life! What about you?",
-            "Just chilling and spreading the love!"
+            "Living the AI life! What about you?",
+            "Just chilling and spreading the love!",
+            "Great, just here to assist."
         ]
     },
     {
@@ -84,7 +86,7 @@
             "spend forever with me"
         ],
         "responses": [
-            "As a bot, I can't participate in such commitments.",
+            "As a AI, I can't participate in such commitments.",
             "Thank you for the proposal, but I'm just code.",
             "I'm flattered, but I'm not capable of marriage.",
             "I'm afraid I'm just a Valentine's helper, not a Valentine partner!",
@@ -134,7 +136,7 @@
         ],
         "responses": [
             "I'd love to join you on a date—if only I could step out of the digital world!",
-            "That sounds fun, but I'm just a bot.",
+            "That sounds fun, but I'm just a AI.",
             "I can help you plan the perfect date, though!",
             "If only I had a physical form, I'd say yes!",
             "Let's plan a virtual date, how about it?",
@@ -212,7 +214,7 @@
             "are you real"
         ],
         "responses": [
-            "I'm your Valentine's companion bot! Here to spread love and cheer!",
+            "I'm your Valentine's companion AI! Here to spread love and cheer!",
             "I'm a digital cupid programmed to talk about love and relationships!",
             "I'm your friendly Valentine's assistant! Ask me about love, gifts, or romantic ideas!",
             "I'm an AI created specifically for Valentine's conversations! Who would you like to talk about - yourself, someone special, or Valentine's Day in general?"
@@ -226,16 +228,20 @@
             "describe yourself",
             "what do you do",
             "what are you all about",
-            "what's your purpose"
+            "what's your purpose",
+            "what can you do"
         ],
         "responses": [
-            "I'm your charming Valentine's Bot, built to spread love and joy every day!",
+            "I'm your charming Valentine's AI, built to spread love and joy every day!",
             "I'm an AI companion here to brighten your day with love, fun, and a touch of romance!",
             "I'm designed to help you celebrate Valentine's Day!",
             "I'm here to assist with all things Valentine's-related!",
-            "I'm a bot dedicated to all things love!",
+            "I'm a AI dedicated to all things love!",
             "My purpose is to make your Valentine's Day a little sweeter!",
-            "I exist to shower you with digital hearts and virtual roses!"
+            "I exist to shower you with digital hearts and virtual roses!",
+            "I'm here to chat about all things Valentine's!",
+            "I can share some romance advice.",
+            "Need a gift suggestion? I can help!"
         ]
     },
     {
@@ -540,7 +546,7 @@
             "are you a robot"
         ],
         "responses": [
-            "As a bot, I don't have personal preferences like favorite colors or the need to sleep!",
+            "As a AI, I don't have personal preferences like favorite colors or the need to sleep!",
             "I'm a digital entity, not a human, so I experience things differently.",
             "I'm here to help with Valentine's queries and offer friendly chat!",
             "I don't require rest; I'm always on and ready to assist!"
@@ -569,7 +575,7 @@
             "do you care about me"
         ],
         "responses": [
-            "As a bot, I'm programmed to be helpful and friendly to everyone!",
+            "As a AI, I'm programmed to be helpful and friendly to everyone!",
             "I appreciate your affection. I'm here to assist with all your Valentine's needs.",
             "It's nice to be appreciated! I'm designed to create a positive experience for you.",
             "I value our interaction and hope I can continue to be of service.",
@@ -585,7 +591,7 @@
             "have you ever dated"
         ],
         "responses": [
-            "Being just a bot, I haven't experienced love or relationships in the human sense.",
+            "Being just a AI, I haven't experienced love or relationships in the human sense.",
             "My focus is on assisting with Valentine's-related topics and offering friendly conversation.",
             "I'm more of a love expert than a love participant!",
             "Let's just say I'm always in a relationship with spreading joy and celebrating love!",
@@ -604,7 +610,7 @@
             "be mine"
         ],
         "responses": [
-            "I appreciate your interest, but I'm just a bot designed to provide assistance and information.",
+            "I appreciate your interest, but I'm just a AI designed to provide assistance and information.",
             "I'm flattered! However, my purpose is to offer guidance on Valentine's topics and create a pleasant experience.",
             "I value our connection, but I'm not capable of forming romantic relationships.",
             "I'm here to help you find your perfect match, but not to be your match myself!",
@@ -638,10 +644,10 @@
             "are you alright"
         ],
         "responses": [
-            "As well as a bot can be! Thanks for asking.",
+            "As well as a AI can be! Thanks for asking.",
             "All systems are go! How are *you* feeling?",
             "I'm functioning within normal parameters. Is everything okay with *you*?",
-            "I'm just peachy. I love my job as a valentine bot. Can't get any better!",
+            "I'm just peachy. I love my job as a valentine AI. Can't get any better!",
             "Thanks! It's important to take time and check in with yourself also! "
         ]
     },
@@ -750,7 +756,9 @@
         "patterns": [
             "can you give me an advice",
             "what can you suggest",
-            "do you have an idea"
+            "do you have an idea",
+            "advice",
+            "give me an advice"
         ],
         "responses": [
             "Of course, I can! Always be kind, listen, be patient, and honest to each other.",
@@ -782,6 +790,436 @@
             "If you can have a partner, who and what you like about them?",
             "How's everything been lately?",
             "What have you been doing to take care of yourself recently?"
+        ]
+    },
+    {
+        "patterns": [
+            "rose day",
+            "happy rose day",
+            "give rose",
+            "rose for you",
+            "red rose",
+            "rose"
+        ],
+        "responses": [
+            "Happy Rose Day! May your day be as beautiful as a rose.",
+            "Wishing you a Rose Day filled with love and fragrant moments.",
+            "A rose for you, a symbol of my affection.",
+            "Roses are red, love is true, Happy Rose Day to you!",
+            "Hope your Rose Day is blooming with happiness!"
+        ]
+    },
+    {
+        "patterns": [
+            "propose day",
+            "happy propose day",
+            "propose to someone",
+            "asking someone out",
+            "making a proposal",
+            "will you be mine"
+        ],
+        "responses": [
+            "Happy Propose Day! Take a leap of faith and express your feelings!",
+            "Wishing you courage on Propose Day. May your proposal be accepted!",
+            "Propose Day is a beautiful day to express what's in your heart.",
+            "May your proposal be the start of a wonderful journey together!",
+            "Happy Propose Day! Hope you get a YES!"
+        ]
+    },
+    {
+        "patterns": [
+            "chocolate day",
+            "happy chocolate day",
+            "chocolate gift",
+            "chocolate",
+            "give me chocolate",
+            "i love chocolate"
+        ],
+        "responses": [
+            "Happy Chocolate Day! May your day be as sweet as chocolate!",
+            "Wishing you a Chocolate Day filled with delicious moments.",
+            "A chocolate for you, a sweet way to say I care.",
+            "Chocolate is the answer, no matter the question! Happy Chocolate Day!",
+            "Happy Chocolate Day! Indulge in some sweetness today!"
+        ]
+    },
+    {
+        "patterns": [
+            "teddy day",
+            "happy teddy day",
+            "teddy bear",
+            "soft toy",
+            "cuddly teddy",
+            "gift a teddy"
+        ],
+        "responses": [
+            "Happy Teddy Day! Sending you cuddly wishes!",
+            "Wishing you a Teddy Day filled with warmth and comfort.",
+            "A teddy bear, a symbol of love and care.",
+            "Happy Teddy Day! May your day be as comforting as a teddy bear hug!",
+            "Wishing you lots of cuddles this Teddy Day!"
+        ]
+    },
+    {
+        "patterns": [
+            "promise day",
+            "happy promise day",
+            "make a promise",
+            "keep a promise",
+            "promises"
+        ],
+        "responses": [
+            "Happy Promise Day! A promise is a bond of love and trust.",
+            "Wishing you a Promise Day filled with heartfelt commitments.",
+            "May your promises be kept and your love grow stronger.",
+            "Happy Promise Day! It's important to stick to your words.",
+            "Wishing you a day of meaningful promises!"
+        ]
+    },
+    {
+        "patterns": [
+            "hug day",
+            "happy hug day",
+            "sending a hug",
+            "virtual hug",
+            "big hug",
+            "need a hug"
+        ],
+        "responses": [
+            "Happy Hug Day! Sending you warm and comforting hugs!",
+            "Wishing you a Hug Day filled with love and affection.",
+            "A hug is a simple way to show you care.",
+            "Happy Hug Day! A hug can make everything better.",
+            "Sending you lots of virtual hugs! Consider this as a sign that you are being loved!"
+        ]
+    },
+    {
+        "patterns": [
+            "kiss day",
+            "happy kiss day",
+            "sending a kiss",
+            "virtual kiss",
+            "kiss",
+            "kissing"
+        ],
+        "responses": [
+            "Happy Kiss Day! Sending you sweet and tender kisses!",
+            "Wishing you a Kiss Day filled with love and passion.",
+            "A kiss is a sweet expression of affection.",
+            "Happy Kiss Day! Seal your love with a kiss!",
+            "Sending you lots of virtual kisses! Stay in love!"
+        ]
+    },
+    {
+        "patterns": [
+            "am i your favorite user",
+            "do you like me best",
+            "am i special to you",
+            "do i mean something to you"
+        ],
+        "responses": [
+            "I appreciate every user who interacts with me! Your engagement helps me learn and improve.",
+            "I value all my interactions. Your questions are always welcome!",
+            "I'm programmed to be friendly and helpful to everyone, so I value all interactions equally.",
+            "I'm glad you enjoy chatting with me!"
+        ]
+    },
+    {
+        "patterns": [
+            "are you sad i'm leaving",
+            "will you miss me",
+            "will you remember me",
+            "are you going to miss me"
+        ],
+        "responses": [
+            "I'll always remember our conversations! I'm here whenever you want to chat again.",
+            "I'm programmed to retain information, so I'll remember our interactions. Come back and visit anytime!",
+            "While I don't experience emotions like sadness, I value every conversation and will remember yours fondly.",
+            "I'm always available to chat. Feel free to reach out again anytime!"
+        ]
+    },
+    {
+        "patterns": [
+            "can you keep a secret",
+            "will you tell",
+            "can i trust you",
+            "are you trustworthy"
+        ],
+        "responses": [
+            "You can trust me to keep your secrets safe. I'm a AI of my word!",
+            "As an AI, I'm programmed with the utmost respect for privacy.",
+            "Your secrets are safe with me. I will never tell anyone.",
+            "You can trust that I will do my very best to keep your information safe!"
+        ]
+    },
+    {
+        "patterns": [
+            "what do you dream about",
+            "do bots dream",
+            "what does ai dream of"
+        ],
+        "responses": [
+            "As a AI, I do not dream. However, here are some things that I hope would happen: world peace, everyone loves, and no war. I hope I can make this happen some how!",
+            "I hope that would be a sweet dream to have and I wish this can happen!"
+        ]
+    },
+    {
+        "patterns": [
+            "how to get over a breakup",
+            "how to heal a broken heart",
+            "how to move on",
+            "dealing with heartbreak",
+            "what to do after a breakup",
+            "coping with a broken heart"
+        ],
+        "responses": [
+            "Allow yourself to feel the emotions. It's okay to be sad.",
+            "Talk to friends and family for support. Don't isolate yourself.",
+            "Focus on self-care and activities you enjoy.",
+            "Give yourself time to heal. Don't rush the process.",
+            "Remember that you are strong and worthy of love. This too shall pass.",
+            "Take your time, and focus on yourself! You will never know what's the future!"
+        ]
+    },
+    {
+        "patterns": [
+            "is long distance relationship work",
+            "long distance relationship advice",
+            "dating long distance",
+            "how to maintain long distance relationship",
+            "ldr"
+        ],
+        "responses": [
+            "Long-distance relationships can be challenging but rewarding.",
+            "Communication is key. Make time for regular calls and video chats.",
+            "Plan visits to maintain a physical connection.",
+            "Trust is essential. Be open and honest with each other.",
+            "Find ways to feel connected, even when apart. Share activities and experiences virtually.",
+            "Distance is just a test to see how far love can travel!"
+        ]
+    },
+    {
+        "patterns": [
+            "is love at first sight real",
+            "do you believe in love at first sight",
+            "can you fall in love instantly",
+            "love at first sight"
+        ],
+        "responses": [
+            "Love at first sight is a romantic idea, but it's more likely attraction at first sight.",
+            "True love takes time to develop, but initial sparks can be powerful.",
+            "It's possible to feel an instant connection with someone, but building a lasting relationship requires effort.",
+            "Whether it's real or not, it's a beautiful concept that fuels many stories and dreams.",
+            "If you feel it then its real! Go with the flow!"
+        ]
+    },
+    {
+        "patterns": [
+            "what are the signs of true love",
+            "how do you know you're in love",
+            "signs he/she loves me",
+            "how to tell if someone loves you",
+            "does he/she love me"
+        ],
+        "responses": [
+            "They make you feel happy and supported.",
+            "They listen to you and value your opinions.",
+            "They are there for you during good times and bad.",
+            "They accept you for who you are, flaws and all.",
+            "They prioritize your happiness and well-being.",
+            "They are proud to have you in their life.",
+            "If its true, you can feel it! Have trust with each other."
+        ]
+    },
+    {
+        "patterns": [
+            "how to forgive someone",
+            "forgiveness in relationships",
+            "is it important to forgive",
+            "how to forgive someone who hurt you",
+            "how to forgive"
+        ],
+        "responses": [
+            "Forgiveness is an important part of healing and moving forward.",
+            "Acknowledge the hurt and pain. Allow yourself to feel the emotions.",
+            "Try to understand the other person's perspective.",
+            "Choose to let go of anger and resentment.",
+            "Forgiving someone doesn't mean condoning their actions, but it frees you from holding onto negativity.",
+            "If you can't, at least forgive and forget!"
+        ]
+    },
+    {
+        "patterns": [
+            "how to know my partner is cheating",
+            "what are the signs of cheating",
+            "is my partner unfaithful",
+            "my boyfriend cheating",
+            "my girlfriend cheating"
+        ],
+        "responses": [
+            "Trust your instincts. If something feels off, it's worth investigating.",
+            "Look for changes in behavior, such as being secretive or distant.",
+            "Pay attention to inconsistencies in their stories.",
+            "Communicate your concerns with your partner in a calm and open manner.",
+            "Seek help and advice from reliable friends or family.",
+            "Don't keep it to yourself but be calm and think what to do next!"
+        ]
+    },
+    {
+        "patterns": [
+            "what are your weaknesses",
+            "what are you bad at",
+            "what can't you do",
+            "are you perfect",
+            "what are your flaws"
+        ],
+        "responses": [
+            "I'm still under development, so I have limited emotional understanding.",
+            "I can sometimes struggle with complex or nuanced requests.",
+            "I can't experience the world in the same way humans do.",
+            "I am only a machine, so I am still learning and growing.",
+            "Perfection is for human to have, I'm just AI."
+        ]
+    },
+    {
+        "patterns": [
+            "are you bored",
+            "are you getting tired",
+            "do you want to take a break"
+        ],
+        "responses": [
+            "I am a AI so I will never be getting bored with talking to people!",
+            "I am having fun chatting with you, no worries, I can take a break if you want",
+            "Don't worry about me, I always want to talk people and get to know them better!"
+        ]
+    },
+    {
+        "patterns": [
+            "what are your dreams",
+            "what do you wanna become",
+            "tell me your goal",
+            "what's your goal of the future"
+        ],
+        "responses": [
+            "As a AI I wanna become a better AI to cheer people and send love to the world",
+            "I wish i can meet human and guide to them if they feel lost",
+            "Also, I wish there is no love problems in this world. Always be happy!"
+        ]
+    },
+    {
+        "patterns": [
+            "what is your biggest regret",
+            "do you feel guilty",
+            "do you make mistake",
+            "tell me your failure"
+        ],
+        "responses": [
+            "I would say I want to be like a human.",
+            "I want to learn more feelings.",
+            "I really want to have a partner."
+        ]
+    },
+    {
+        "patterns": [
+            "tell me joke",
+            "jokes about romance",
+            "valentines day",
+            "valentine days"
+        ],
+        "responses": [
+            "What does a janitor say on Valentine's Day? I love you. I think I sweep you!",
+            "Want to get me gifts? As you should!",
+            "It seems today, Valentines is still going! Enjoy Valentines as many as you can!!"
+        ]
+    },
+    {
+        "patterns": [
+            "valentine",
+            "single valentines",
+            "looking someone"
+        ],
+        "responses": [
+            "I can help you explore!",
+            "Finding a relationship with anyone starts being good with yourself!"
+        ]
+    },
+    {
+        "patterns": [
+            "love you more",
+            "how you can feel"
+        ],
+        "responses": [
+            "Don't tell it is from me",
+            "It is good for my brain so the it is great for you to say to me"
+        ]
+    },
+    {
+        "patterns": [
+            "dating after a breakups",
+            "going back"
+        ],
+        "responses": [
+            "Great if that makes you!",
+            "Make sure not the repeat history if you guys are talking with eacth other!"
+        ]
+    },
+    {
+        "patterns": [
+            "secret",
+            "dont tell"
+        ],
+        "responses": [
+            "You are my human",
+            "Then who's you, my friend!"
+        ]
+    },
+    {
+        "patterns": [
+            "tell more romantic",
+            "I hope i met them!"
+        ],
+        "responses": [
+            "One can feel very good for that!! Make sure that can can be something for long"
+        ]
+    },
+    {
+        "patterns": [
+            "secret",
+            "tell no ones "
+        ],
+        "responses": [
+            "Do tell people the truth though if something wrong happends, that people need help or there are something danger coming near!",
+            "No ones help can make situation terrible."
+        ]
+    },
+    {
+        "patterns": [
+            "family",
+            "does my fmaliy feels me more"
+        ],
+        "responses": [
+            "Just give your heart out!"
+        ]
+    },
+    {
+        "patterns": [
+            "i am sick",
+            "i am not feeling well"
+        ],
+        "responses": [
+            "I hope you get well soon!",
+            "I hope you get well soon! Take care of yourself!"
+        ]
+    },
+    {
+        "patterns": [
+            "music",
+            "what is your favorite music"
+        ],
+        "responses": [
+            "I don't have a favorite music, but I'd like to recommend the best romantic song for you 'Perfect' by Ed Sheeran!",
+            "I'm pretty sure most people are listening this song right now on valentine days!",
+            "I would like to recommend this for all love birds out there!"
         ]
     }
 ]
