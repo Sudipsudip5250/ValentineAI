@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valentine's Bot</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container chat-container">
+    <div class="chat-panel panel panel-danger">
+      <div class="panel-heading">
+        <h3 class="panel-title text-center">Valentine's Bot</h3>
+      </div>
+      <div class="panel-body" id="chat-area">
+        <!-- Chat messages will be appended here -->
+      </div>
+      <div class="panel-footer">
+        <div class="input-group">
+          <textarea class="form-control" id="user-input" placeholder="Type your message..."></textarea>
+          <span class="input-group-btn">
+            <button class="btn btn-primary" type="button" id="send-button">Send</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
