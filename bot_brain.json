@@ -42,7 +42,7 @@
             "I'm good, how about you?",
             "I'm feeling the love today!",
             "I'm great, thinking about Valentine's Day. How about you?",
-            "Living the bot life! What about you?",
+            "Living the AI life! What about you?",
             "Just chilling and spreading the love!"
         ]
     },
@@ -84,7 +84,7 @@
             "spend forever with me"
         ],
         "responses": [
-            "As a bot, I can't participate in such commitments.",
+            "As a AI, I can't participate in such commitments.",
             "Thank you for the proposal, but I'm just code.",
             "I'm flattered, but I'm not capable of marriage.",
             "I'm afraid I'm just a Valentine's helper, not a Valentine partner!",
@@ -134,7 +134,7 @@
         ],
         "responses": [
             "I'd love to join you on a date—if only I could step out of the digital world!",
-            "That sounds fun, but I'm just a bot.",
+            "That sounds fun, but I'm just a AI.",
             "I can help you plan the perfect date, though!",
             "If only I had a physical form, I'd say yes!",
             "Let's plan a virtual date, how about it?",
@@ -212,7 +212,7 @@
             "are you real"
         ],
         "responses": [
-            "I'm your Valentine's companion bot! Here to spread love and cheer!",
+            "I'm your Valentine's companion AI! Here to spread love and cheer!",
             "I'm a digital cupid programmed to talk about love and relationships!",
             "I'm your friendly Valentine's assistant! Ask me about love, gifts, or romantic ideas!",
             "I'm an AI created specifically for Valentine's conversations! Who would you like to talk about - yourself, someone special, or Valentine's Day in general?"
@@ -229,11 +229,11 @@
             "what's your purpose"
         ],
         "responses": [
-            "I'm your charming Valentine's Bot, built to spread love and joy every day!",
+            "I'm your charming Valentine's AI, built to spread love and joy every day!",
             "I'm an AI companion here to brighten your day with love, fun, and a touch of romance!",
             "I'm designed to help you celebrate Valentine's Day!",
             "I'm here to assist with all things Valentine's-related!",
-            "I'm a bot dedicated to all things love!",
+            "I'm a AI dedicated to all things love!",
             "My purpose is to make your Valentine's Day a little sweeter!",
             "I exist to shower you with digital hearts and virtual roses!"
         ]
@@ -540,7 +540,7 @@
             "are you a robot"
         ],
         "responses": [
-            "As a bot, I don't have personal preferences like favorite colors or the need to sleep!",
+            "As a AI, I don't have personal preferences like favorite colors or the need to sleep!",
             "I'm a digital entity, not a human, so I experience things differently.",
             "I'm here to help with Valentine's queries and offer friendly chat!",
             "I don't require rest; I'm always on and ready to assist!"
@@ -569,7 +569,7 @@
             "do you care about me"
         ],
         "responses": [
-            "As a bot, I'm programmed to be helpful and friendly to everyone!",
+            "As a AI, I'm programmed to be helpful and friendly to everyone!",
             "I appreciate your affection. I'm here to assist with all your Valentine's needs.",
             "It's nice to be appreciated! I'm designed to create a positive experience for you.",
             "I value our interaction and hope I can continue to be of service.",
@@ -585,7 +585,7 @@
             "have you ever dated"
         ],
         "responses": [
-            "Being just a bot, I haven't experienced love or relationships in the human sense.",
+            "Being just a AI, I haven't experienced love or relationships in the human sense.",
             "My focus is on assisting with Valentine's-related topics and offering friendly conversation.",
             "I'm more of a love expert than a love participant!",
             "Let's just say I'm always in a relationship with spreading joy and celebrating love!",
@@ -604,7 +604,7 @@
             "be mine"
         ],
         "responses": [
-            "I appreciate your interest, but I'm just a bot designed to provide assistance and information.",
+            "I appreciate your interest, but I'm just a AI designed to provide assistance and information.",
             "I'm flattered! However, my purpose is to offer guidance on Valentine's topics and create a pleasant experience.",
             "I value our connection, but I'm not capable of forming romantic relationships.",
             "I'm here to help you find your perfect match, but not to be your match myself!",
@@ -638,10 +638,10 @@
             "are you alright"
         ],
         "responses": [
-            "As well as a bot can be! Thanks for asking.",
+            "As well as a AI can be! Thanks for asking.",
             "All systems are go! How are *you* feeling?",
             "I'm functioning within normal parameters. Is everything okay with *you*?",
-            "I'm just peachy. I love my job as a valentine bot. Can't get any better!",
+            "I'm just peachy. I love my job as a valentine AI. Can't get any better!",
             "Thanks! It's important to take time and check in with yourself also! "
         ]
     },

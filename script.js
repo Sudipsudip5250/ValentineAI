@@ -3,15 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
     const sendButton = document.getElementById("send-button");
     const chatArea = document.getElementById("chat-area");
   
-    let botData = [];
+    let AIData = [];
   
-    // Load the bot "brain" from the JSON file
-    fetch("bot_brain.json")
+    // Load the AI "brain" from the JSON file
+    fetch("AI_brain.json")
       .then((response) => response.json())
       .then((data) => {
-        botData = data;
+        AIData = data;
       })
-      .catch((error) => console.error("Error loading bot_brain.json:", error));
+      .catch((error) => console.error("Error loading AI_brain.json:", error));
   
     // Display a message in the chat area
     function displayMessage(message, sender) {
@@ -61,18 +61,18 @@ document.addEventListener("DOMContentLoaded", function () {
       return 1 - distance / Math.max(a.length, b.length);
     }
   
-    // Get a bot response based on fuzzy matching of user input to each pattern
-    function getBotResponse(userMessage) {
+    // Get a AI response based on fuzzy matching of user input to each pattern
+    function getAIResponse(userMessage) {
       userMessage = userMessage.toLowerCase().trim();
       let bestMatch = null;
       let highestScore = 0;
       const threshold = 0.65; // Adjust the threshold as needed
   
-      // Add this in getBotResponse before the main loop
+      // Add this in getAIResponse before the main loop
       const userWords = userMessage.split(" ");
   
-      // Loop through each bot brain entry
-      botData.forEach((entry) => {
+      // Loop through each AI brain entry
+      AIData.forEach((entry) => {
         entry.patterns.forEach((pattern) => {
           const cleanPattern = pattern.toLowerCase().replace(/[^a-z0-9 ]/g, "");
   
@@ -129,8 +129,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
         // Simulate a small delay to mimic "thinking"
         setTimeout(() => {
-          const botResponse = getBotResponse(message);
-          displayMessage(botResponse, "bot");
+          const AIResponse = getAIResponse(message);
+          displayMessage(AIResponse, "AI");
         }, 500);
       }
     });

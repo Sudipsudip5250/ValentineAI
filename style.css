@@ -31,7 +31,7 @@ body {
     border-bottom: 1px solid #ddd;
   }
   
-  .user-message, .bot-message {
+  .user-message, .AI-message {
     max-width: 80%;
     margin-bottom: 15px;
     padding: 10px 15px;
@@ -47,7 +47,7 @@ body {
     text-align: right;
   }
   
-  .bot-message {
+  .AI-message {
     background-color: #f7e1e1;
     margin-right: auto;
     text-align: left;
