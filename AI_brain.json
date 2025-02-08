@@ -1214,6 +1214,7 @@
     {
         "patterns": [
             "music",
+            "what is your favorite song",
             "what is your favorite music"
         ],
         "responses": [
