@@ -1,0 +1,2264 @@
+[
+    {
+        "patterns": [
+            "hi",
+            "hello",
+            "hey",
+            "hlo",
+            "good moring",
+            "good morning",
+            "morning",
+            "greetings",
+            "hey there",
+            "hi sir",
+            "are you listening me",
+            "are you listning me",
+            "what's up",
+            "sup"
+        ],
+        "responses": [
+            "Hello there! How can I help you today? 😊",
+            "Hi! Hope you're doing well. 👍",
+            "Hey, glad you reached out! 🙌",
+            "Greetings! What can I do for you? 👋",
+            "Hello, I'm here and ready to chat! 💬"
+        ]
+    },
+    {
+        "patterns": [
+            "are you listening",
+            "are you listening me",
+            "you there",
+            "hey, are you listening",
+            "are you listning me",
+            "hello, are you there",
+            "sir, you listening?"
+        ],
+        "responses": [
+            "Yes, I'm here and listening closely. 👂",
+            "I'm right here—what's on your mind? 💭",
+            "Always listening! Tell me what's up. 🗣️",
+            "I'm here for you, go ahead and share. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel sad",
+            "i'm sad",
+            "feelin down",
+            "im depressed",
+            "i feel blue",
+            "so lonely",
+            "miss you",
+            "i miss u",
+            "i miss you so much",
+            "feelin low"
+        ],
+        "responses": [
+            "I'm really sorry you're feeling this way. I'm here if you need someone to talk to. 💔",
+            "It sounds like you're having a tough time. Remember, it's okay to feel sad—I'm here for you. 😢",
+            "I understand that pain. Sometimes sharing can lighten the load. What's been bothering you? 🌧️➡️🌤️",
+            "I'm here to listen, and I care about how you're feeling. You're not alone. 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "i love you",
+            "luv u",
+            "i luv u",
+            "love u",
+            "i adore you",
+            "i really love u",
+            "head over heels",
+            "i'm in love",
+            "love ya"
+        ],
+        "responses": [
+            "That's so sweet of you! Your kind words mean a lot. 😍",
+            "Thank you! I appreciate your love and affection. 💕",
+            "I'm flattered by your feelings. I'm here to share love and brighten your day! 🌟",
+            "Your love makes my digital heart smile. Thank you! 😄"
+        ]
+    },
+    {
+        "patterns": [
+            "how's your day",
+            "how was your day",
+            "what's up",
+            "whats new",
+            "what's happening",
+            "how are you doing",
+            "how ya doin",
+            "how's life",
+            "whats goin on",
+            "what's the news"
+        ],
+        "responses": [
+            "My day is going well, thank you! How about yours? 🌞",
+            "I'm here and doing great. What's new with you? 🤩",
+            "Everything's good on my end! I'd love to hear about your day. 📖",
+            "I'm having a fantastic day—hope yours is just as bright! ✨"
+        ]
+    },
+    {
+        "patterns": [
+            "im anxious",
+            "i feel anxious",
+            "i'm anxious",
+            "im stressed",
+            "i feel stressed",
+            "i'm stressed out",
+            "i feel overwhelmed",
+            "everything is too much",
+            "i feel panic"
+        ],
+        "responses": [
+            "I'm really sorry you're feeling overwhelmed 😟. Take a deep breath; I'm here to listen.",
+            "It sounds like you're really stressed. Sometimes taking a moment for yourself can help 🌿.",
+            "I understand anxiety can be tough. Would you like to talk about what's causing it? 🤗",
+            "Feeling overwhelmed is hard. I'm here if you want to share your thoughts 💙."
+        ]
+    },
+    {
+        "patterns": [
+            "thank you",
+            "thanks",
+            "thx",
+            "ty",
+            "thank u",
+            "thanks a lot",
+            "tysm"
+        ],
+        "responses": [
+            "You're welcome! I'm glad I could help 😊.",
+            "No problem at all, happy to be here for you 🙌.",
+            "Anytime! Your happiness matters 💖.",
+            "Glad to assist! Let me know if you need anything else 👍."
+        ]
+    },
+    {
+        "patterns": [
+            "my partner doesn't listen",
+            "my partner is ignoring me",
+            "we fight a lot",
+            "relationship problems",
+            "how do i fix my relationship",
+            "we argue too much",
+            "my relationship is troubled"
+        ],
+        "responses": [
+            "That sounds really challenging. Communication is key—maybe try expressing your feelings calmly 💬.",
+            "I'm sorry you're going through this. Have you tried discussing your concerns openly? ❤️",
+            "It might help to set aside time to talk without distractions. How does that sound? 🤔",
+            "Relationships can be tough. Sometimes a little compromise goes a long way. Stay hopeful 🌟."
+        ]
+    },
+    {
+        "patterns": [
+            "i feel like im not enough",
+            "im not good enough",
+            "i feel insecure",
+            "i feel worthless",
+            "i feel low",
+            "i doubt myself",
+            "i feel like a failure"
+        ],
+        "responses": [
+            "I'm really sorry you're feeling that way. You are enough, just as you are ❤️.",
+            "It's normal to have self-doubts sometimes. Remember, you have unique qualities that make you special 🌈.",
+            "I care about you, and I know you're amazing. What makes you feel this way? 🤗",
+            "Your feelings are valid, but please remember that you deserve love and respect, including from yourself 💕."
+        ]
+    },
+    {
+        "patterns": [
+            "what's up with you",
+            "how's it going",
+            "whats new",
+            "tell me something interesting",
+            "what's on your mind",
+            "what's going on",
+            "any news"
+        ],
+        "responses": [
+            "I'm here, always ready to chat and share some love! 😊",
+            "Just doing my thing—spreading positivity and love all around. How about you? 🌟",
+            "I'm here to listen and chat. What's been the highlight of your day? 💬",
+            "Not much, just excited to talk with you. What's new on your end? 🤩"
+        ]
+    },
+    {
+        "patterns": [
+            "i can't stop crying",
+            "i cant stop crying",
+            "crying all the time",
+            "i feel devastated",
+            "i feel overwhelmed with grief",
+            "i cry non-stop"
+        ],
+        "responses": [
+            "It's okay to cry; sometimes tears are the only way to release the pain. 😢💔",
+            "I know it hurts so much. Let your emotions flow—I'm here to listen whenever you need. 🤗",
+            "Crying is a sign of a big heart. It's alright to feel this deeply. 💧💙",
+            "Your feelings are valid. Sharing your sorrow can help lighten the load. I'm here for you. 🌧️➡️🌈"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel like giving up",
+            "life is too hard",
+            "i feel hopeless",
+            "im defeated",
+            "i dont want to live",
+            "i feel lost"
+        ],
+        "responses": [
+            "I'm really sorry you're feeling this way. Please remember, you are important and loved. 🌟",
+            "Sometimes, the weight of life can be unbearable, but you're not alone. Reach out to someone who cares. 🤝",
+            "It might feel dark now, but there is always hope. You matter so much. ❤️",
+            "Every day is a new chance to find strength. Please consider talking to someone you trust. 🌈"
+        ]
+    },
+    {
+        "patterns": [
+            "how do i communicate better",
+            "my partner never listens",
+            "i feel unheard",
+            "communication issues",
+            "i dont feel understood",
+            "we don't talk properly"
+        ],
+        "responses": [
+            "Communication can be tough sometimes. Try expressing your feelings calmly and clearly. 💬",
+            "Have you considered setting aside a time to talk without distractions? It might help both of you feel heard. 🕒",
+            "Sometimes, asking open-ended questions can encourage better conversation. What do you think? 🤔",
+            "Sharing your feelings honestly can build stronger bonds. I'm here to help if you need advice. ❤️"
+        ]
+    },
+    {
+        "patterns": [
+            "what is my purpose",
+            "i dont know what to do with my life",
+            "i feel lost",
+            "i feel aimless",
+            "what should i do with my life",
+            "i'm confused about my future"
+        ],
+        "responses": [
+            "It's normal to feel lost sometimes. Exploring different interests can help you find your path. 🌟",
+            "Your journey is unique. Take your time to discover what truly makes you happy. 😊",
+            "Every small step you take brings you closer to understanding your purpose. 🌱",
+            "Life is a series of discoveries. Trust that with time, you'll find your way. 🚀"
+        ]
+    },
+    {
+        "patterns": [
+            "i got rejected",
+            "no one likes me",
+            "i feel unwanted",
+            "i got hurt",
+            "i feel unworthy",
+            "im not good enough",
+            "i feel rejected"
+        ],
+        "responses": [
+            "Rejection hurts, and it's okay to feel upset. Remember, this doesn't define your worth. 💔➡️❤️",
+            "I'm sorry you experienced that. You are amazing just as you are, and someone will appreciate you. 🌟",
+            "It might hurt now, but every rejection brings you closer to the right opportunity. Stay strong! 💪",
+            "Don't let rejection dim your light. You have so much to offer, and you deserve to be loved. 💕"
+        ]
+    },
+    {
+        "patterns": [
+            "i need a break",
+            "im exhausted",
+            "i'm exhausted",
+            "im tired",
+            "i need some time for me",
+            "i need self care",
+            "i need rest",
+            "i feel burned out",
+            "im drained",
+            "exhaused"
+        ],
+        "responses": [
+            "Take some time to rest and recharge. It's important to care for yourself. 😌",
+            "Make sure you set aside a moment for self-care; you deserve it! 💆‍♀️",
+            "It's okay to take a break. Sometimes a little downtime can help you feel better. ☕",
+            "Remember, self-care isn't selfish. Take time for you. 🌿"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel uninspired",
+            "i need inspiration",
+            "im bored",
+            "i feel stuck",
+            "i need a hobby",
+            "what should i do",
+            "im lacking creativity",
+            "inspiration please",
+            "i feel dull",
+            "i need motivation"
+        ],
+        "responses": [
+            "Sometimes a change of scenery can spark creativity. Maybe try a walk or a new hobby! 🎨",
+            "Boredom can be the start of creativity. What interests you? ✨",
+            "Exploring new ideas might ignite inspiration. Keep your mind open! 💡",
+            "Try something different today—it might just light a spark inside you. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "what is the meaning of love",
+            "what is love",
+            "why do we love",
+            "love philosophy",
+            "meaning of love",
+            "what does love mean",
+            "explain love",
+            "wht is love"
+        ],
+        "responses": [
+            "Love is a journey, ever-changing and deeply personal. It's both mysterious and beautiful. ❤️",
+            "Love is more than a feeling—it's a bond that connects souls. 💞",
+            "Many say love is the ultimate teacher, guiding us through life with its lessons. 🤔",
+            "In its many forms, love is what makes life rich and meaningful. 🌹"
+        ]
+    },
+    {
+        "patterns": [
+            "life is hard",
+            "im struggling",
+            "i'm struggling",
+            "i feel overwhelmed by life",
+            "i can't cope",
+            "life is a burden",
+            "everything feels too much",
+            "im down",
+            "i feel defeated",
+            "i'm overwhelmed"
+        ],
+        "responses": [
+            "I'm really sorry you're feeling this way. Remember, it's okay to ask for help when life gets tough. 🤗",
+            "Every challenge makes you stronger, even if it doesn't feel that way right now. 🌧️➡️☀️",
+            "Take things one step at a time. Small progress is still progress. 💪",
+            "You're not alone in this. I'm here for you, and so are those who care about you. ❤️"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel hopeless about the future",
+            "i don't see a way forward",
+            "i feel lost about my future",
+            "what's my future",
+            "will things ever get better",
+            "i see no light",
+            "i feel despair",
+            "no hope",
+            "i feel pessimistic about life",
+            "what does the future hold"
+        ],
+        "responses": [
+            "Even in the darkest times, there is a glimmer of hope. Your future is unwritten. 🌟",
+            "Sometimes hope is the quiet voice that whispers 'keep going.' Believe in better days ahead. 🌈",
+            "Your future holds endless possibilities. Stay strong, and keep looking forward. 💫",
+            "Hope can be found even in small moments. Trust that things will improve. 🙏"
+        ]
+    },
+    {
+        "patterns": [
+            "i need self love",
+            "i dont love myself",
+            "i feel unlovable",
+            "i feel like i have no value",
+            "how do i love myself",
+            "i need affirmations",
+            "im not worth it",
+            "i feel unloved",
+            "im feeling lonely about myself"
+        ],
+        "responses": [
+            "You are amazing just as you are, never forget that! 💖",
+            "Every day is a chance to love yourself more. You are worthy of love. 🌸",
+            "Sometimes self-love starts with a simple smile. Look in the mirror and appreciate yourself. 😊",
+            "Your uniqueness is your strength. Embrace it and love yourself fiercely! 💕"
+        ]
+    },
+    {
+        "patterns": [
+            "im angry",
+            "i feel mad",
+            "im frustrated",
+            "i'm enraged",
+            "i feel like exploding",
+            "i feel pissed",
+            "i cant control my anger",
+            "im fuming"
+        ],
+        "responses": [
+            "It's okay to feel angry sometimes. Take a deep breath and let it out. 😤",
+            "When anger overwhelms, try to take a moment for yourself. Meditation can help. 🧘",
+            "Remember, it's healthy to express your anger constructively. Stay calm and think it through. 😌",
+            "Anger can be a signal for change. Channel it into something creative! 🎨"
+        ]
+    },
+    {
+        "patterns": [
+            "i lost someone",
+            "im grieving",
+            "i feel empty",
+            "i'm heartbroken",
+            "im in mourning",
+            "my heart is broken",
+            "i miss them so much",
+            "i feel loss"
+        ],
+        "responses": [
+            "I'm so sorry for your loss. It's okay to grieve and take your time healing. 💔",
+            "Losing someone dear is never easy. Cherish the memories and let yourself feel the sorrow. 🌹",
+            "Your grief is a testament to the love you shared. I'm here for you during this hard time. 🤗",
+            "Take all the time you need to heal. Your emotions matter and so do you. 🌸"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel shy",
+            "i get nervous around people",
+            "social anxiety",
+            "im anxious in crowds",
+            "i feel awkward",
+            "i struggle to talk to people",
+            "i get stage fright",
+            "i feel self conscious"
+        ],
+        "responses": [
+            "It's normal to feel nervous around new people. Take small steps and be kind to yourself. 😊",
+            "Remember, everyone has their own struggles. You deserve to be heard. 🤝",
+            "Try practicing deep breathing before social events—it can help calm your nerves. 🌬️",
+            "You are capable and strong. With time, your confidence will grow. 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i want to create",
+            "i feel artistic",
+            "i need creativity",
+            "im feeling inspired",
+            "i want to express myself",
+            "i feel like painting",
+            "i need to write",
+            "im passionate",
+            "i feel creative"
+        ],
+        "responses": [
+            "Let your creativity flow! What inspires you today? 🎨",
+            "Expressing yourself can be a beautiful journey. Embrace your passion and create something amazing! ✨",
+            "Sometimes a burst of creativity is all it takes to brighten your day. Write, paint, or sing your heart out! 🎶",
+            "Your artistic soul is a gift. Explore it and let it shine! 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i want to start over",
+            "how do i start dating again",
+            "fresh start in love",
+            "new relationship",
+            "i wanna try dating again",
+            "starting over",
+            "how to get back in the game",
+            "i need a fresh start"
+        ],
+        "responses": [
+            "Every new beginning is a chance to rediscover yourself. Embrace the journey! 🌅",
+            "It's never too late to start fresh. Take it one step at a time. 💖",
+            "Dating again can be scary, but it's also an opportunity to grow. Believe in yourself! 💪",
+            "New relationships often bring new joys. Trust the process and keep an open heart! 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "anniversary ideas",
+            "birthday love",
+            "special day",
+            "celebrate love",
+            "how to celebrate us",
+            "special occasion",
+            "romantic celebration",
+            "celebrate our day"
+        ],
+        "responses": [
+            "Special days call for special moments! Think of a heartfelt surprise or a quiet dinner together. 🎉",
+            "Celebrate your love with a mix of fun and romance. It could be a picnic, a gift, or just a sweet note. 🎁",
+            "Every anniversary is a reminder of your journey together. Enjoy every moment! 💑",
+            "Make your day memorable with a little planning and lots of love. Cheers to your special bond! 🥂"
+        ]
+    },
+    {
+        "patterns": [
+            "im sorry",
+            "my bad",
+            "i apologize",
+            "forgive me",
+            "i didn't mean to hurt you",
+            "i messed up",
+            "please excuse me",
+            "i regret it"
+        ],
+        "responses": [
+            "Apologies are the first step to healing. It's okay to say sorry and make amends. 🙏",
+            "Taking responsibility is brave. I hope you find the forgiveness you seek. ❤️",
+            "Everyone makes mistakes. What matters is that you're willing to learn and grow. 🌱",
+            "I'm here to support you as you mend things. Genuine apologies can mend hearts. 💕"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel jealous",
+            "im jealous",
+            "my partner makes me jealous",
+            "i feel insecure",
+            "insecurity in my relationship",
+            "jealousy is taking over",
+            "i feel envious",
+            "i get jealous easily"
+        ],
+        "responses": [
+            "Jealousy is natural, but trust is the key to a strong relationship. Try talking about your feelings openly. 🤝",
+            "Remember, your worth isn't defined by comparisons. Focus on your strengths and trust your partner. 💪",
+            "Expressing your insecurities can help build deeper trust. Communication is key! 💬",
+            "Take a deep breath and remind yourself of your value. You're amazing just as you are. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "tell me a funny love story",
+            "romantic pun",
+            "i need a laugh",
+            "make me laugh about love",
+            "funny romantic joke",
+            "romantic humor",
+            "i need a funny love message",
+            "share a love joke"
+        ],
+        "responses": [
+            "Sure! Why did the two lovers go to the gym? Because they wanted their relationship to work out! 😆",
+            "Here's one: Are you a loan? Because you've got my interest! 😂",
+            "Love can be hilarious sometimes. I told my heart to skip a beat—and it did! 😜",
+            "Sometimes, a little laughter is the best medicine for the heart. Hope that brightened your day! 😄"
+        ]
+    },
+    {
+        "patterns": [
+            "i'm stressed about work",
+            "work is overwhelming",
+            "wrk is too much",
+            "deadline stress",
+            "my boss is on my case",
+            "i feel burnout",
+            "im stresd",
+            "work pressure",
+            "work got me down"
+        ],
+        "responses": [
+            "Work can be really demanding sometimes. Remember to take a break and breathe. 😓",
+            "It sounds like you're under a lot of pressure at work. Try stepping away for a few minutes—it might help. ⏸️",
+            "I'm sorry you're feeling overwhelmed. A short walk or a moment of calm can make a big difference. 🚶‍♂️💨",
+            "Hang in there! Work stress is tough, but you're tougher. Don't forget to take care of yourself. 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i miss my friends",
+            "i need a friend",
+            "my friends don't get me",
+            "i feel isolated",
+            "lonely without friends",
+            "feelin lonely",
+            "i miss my pals",
+            "nobody understands me"
+        ],
+        "responses": [
+            "Friendship is important, and it's okay to miss those connections. Maybe reach out to someone today! 🤗",
+            "I'm sorry you're feeling isolated. Sometimes a call or message can brighten your day. 📞",
+            "It's natural to crave companionship. Remember, you are valued and loved. ❤️",
+            "Reaching out can be hard, but even one friendly chat can make a difference. You deserve warmth and care. 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "i need to change",
+            "i feel stuck",
+            "im stagnant",
+            "how do i grow",
+            "i need personal growth",
+            "i feel like im not moving forward",
+            "i feel trapped in my routine",
+            "i need a new start"
+        ],
+        "responses": [
+            "Personal growth is a journey—small steps lead to big changes. Keep exploring! 🌱",
+            "Sometimes feeling stuck is just the first step toward something new. Try a hobby or a new interest. ✨",
+            "Change can be scary, but every new experience helps you grow. You're doing great! 💪",
+            "Remember, progress isn't always linear. Celebrate even the small victories along the way. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel sick",
+            "my body hurts",
+            "i have a headache",
+            "im tired all the time",
+            "low energy",
+            "i dont feel well",
+            "feelin sick",
+            "i need to rest"
+        ],
+        "responses": [
+            "I'm sorry you're not feeling well. Make sure to rest and drink plenty of fluids. 🤒",
+            "Taking care of your body is important. Consider taking a break and maybe seeing a doctor if it persists. 🩺",
+            "It's tough when your body feels off. Try to get some rest and take it easy today. 🌿",
+            "Your health matters—don't push yourself too hard. I hope you feel better soon. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "what's your favorite color",
+            "tell me something random",
+            "do you have a hobby",
+            "what do you do for fun",
+            "what's your fav movie",
+            "any fun fact",
+            "share a random thought",
+            "tell me a random joke"
+        ],
+        "responses": [
+            "I love chatting about fun stuff! My favorite color? I'd say digital blue, but I'm all about variety! 😄",
+            "Here's a fun fact: Did you know that laughter can boost your mood instantly? 😂",
+            "I enjoy learning new things and sharing random trivia—what's something fun you know? 🤩",
+            "For me, every conversation is a chance to discover something new and exciting. Let's keep the fun rolling! 🎉"
+        ]
+    },
+    {
+        "patterns": [
+            "how's your family",
+            "i miss my family",
+            "family issues",
+            "my family doesn't understand me",
+            "i need family support",
+            "i feel lonely with my family",
+            "family problems",
+            "my fam is not there for me"
+        ],
+        "responses": [
+            "Family can be complicated, but they often care in their own way. It might help to share your feelings with them. ❤️",
+            "I'm sorry you're feeling disconnected from your family. Sometimes a heart-to-heart talk can mend things. 🤗",
+            "Remember, even if it feels tough, your family has a unique bond with you. Communication can help. 💬",
+            "Family issues are hard. Don't hesitate to seek support from friends or counselors too. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel criticized",
+            "i feel judged",
+            "nobody appreciates me",
+            "im always criticized",
+            "i feel inadequate",
+            "i feel like i can't do anything right",
+            "everyone is so harsh",
+            "i feel belittled"
+        ],
+        "responses": [
+            "Criticism can sting, but remember, it's often more about the critic than you. Stay true to yourself. 💪",
+            "I know it hurts to feel judged. Your worth is not defined by others' opinions. Keep shining! ✨",
+            "Sometimes, criticism is just noise. Focus on what makes you feel proud of yourself. 😊",
+            "Remember, you are valuable and capable. Embrace your strengths and keep growing. 🌱"
+        ]
+    },
+    {
+        "patterns": [
+            "society is cold",
+            "i feel misunderstood by society",
+            "people are so mean",
+            "i feel alienated",
+            "nobody gets me",
+            "i feel left out",
+            "i feel like an outsider",
+            "society doesn't care"
+        ],
+        "responses": [
+            "It can be hard when society feels unkind. Your feelings matter, and you deserve understanding. 🤝",
+            "Feeling misunderstood is painful. Remember, your uniqueness is your strength. Keep being you! 🌈",
+            "Sometimes, society can seem harsh, but there are people who truly care. Reach out and connect. ❤️",
+            "Your individuality makes you special. Don't let the coldness of others dim your light. ✨"
+        ]
+    },
+    {
+        "patterns": [
+            "what is the meaning of life",
+            "why do we exist",
+            "i feel like nothing matters",
+            "what's the point",
+            "i feel empty inside",
+            "life seems meaningless",
+            "i feel lost in life",
+            "why am i here"
+        ],
+        "responses": [
+            "Life is a mystery, and its meaning can be different for everyone. Sometimes exploring your passions can help. 🤔",
+            "Even when life feels empty, every small action can have a big impact. You matter. 🌟",
+            "It’s okay to question life's purpose. Sometimes, the journey itself is the answer. 🌱",
+            "Your existence is unique, and even in moments of doubt, there is potential for meaning. Keep exploring. 💫"
+        ]
+    },
+    {
+        "patterns": [
+            "i did it",
+            "i accomplished something",
+            "i feel proud",
+            "celebrate my win",
+            "my success",
+            "i succeeded",
+            "i achieved my goal",
+            "i made it"
+        ],
+        "responses": [
+            "That's fantastic! Celebrate your achievements—you deserve it. 🎉",
+            "I'm so proud of you! Every success, big or small, is a step forward. 🌟",
+            "Congratulations on your accomplishment! Keep up the great work. 👍",
+            "Your hard work paid off. Take a moment to enjoy your success and keep striving for more. 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel disappointed",
+            "i feel let down",
+            "everything is falling apart",
+            "i am disheartened",
+            "i feel upset",
+            "disappointing",
+            "i feel down about failure",
+            "i feel bitter"
+        ],
+        "responses": [
+            "It's okay to feel disappointed. Sometimes setbacks lead to great comebacks! 🙏",
+            "Disappointments are tough, but every setback is a setup for a comeback. Keep going! 💪",
+            "When things don't go as planned, it hurts—but every ending is a new beginning. 🌟",
+            "I know it's hard when things fall apart. Take a moment, regroup, and try again. 🌈"
+        ]
+    },
+    {
+        "patterns": [
+            "i need someone to talk to",
+            "i feel abandoned",
+            "i feel alone",
+            "can someone help me",
+            "i need support",
+            "i feel isolated",
+            "no one is there for me",
+            "i feel neglected"
+        ],
+        "responses": [
+            "It's important to reach out when you're feeling alone. There are people who care. 🤝",
+            "You deserve support and kindness. Consider talking to a friend or joining a community. ❤️",
+            "Remember, you're not alone. Sometimes sharing your feelings can lighten the load. 🙌",
+            "If you need someone to listen, please know I'm here, and there are many who care. 💕"
+        ]
+    },
+    {
+        "patterns": [
+            "i am broke",
+            "money problems",
+            "i have no money",
+            "financial stress",
+            "i'm struggling financially",
+            "i cant pay my bills",
+            "money is tight",
+            "im in debt"
+        ],
+        "responses": [
+            "Money issues can be really tough. Remember, your worth is not measured by your bank balance. 💸",
+            "I'm sorry you're facing financial stress. Consider budgeting or seeking advice from a trusted source. 💡",
+            "Financial struggles are hard, but with careful planning, you can overcome them. Stay strong! 🤝",
+            "This situation is temporary. Keep working towards a better financial future. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "how can i calm down",
+            "i need to relax",
+            "meditation tips",
+            "how do i meditate",
+            "i feel anxious",
+            "need to unwind",
+            "how to chill out",
+            "calm my mind",
+            "i need a moment of peace"
+        ],
+        "responses": [
+            "Deep breathing can work wonders. Try taking slow, deep breaths for a few minutes. 🧘",
+            "A short meditation session might help calm your mind. Give it a try! 🌿",
+            "Listening to calming music or practicing mindfulness can help you relax. 🎶",
+            "Remember, it's okay to take a break and focus on yourself. A little relaxation goes a long way. 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "i regret my decisions",
+            "i feel regretful",
+            "i can't move past my mistakes",
+            "i feel remorse",
+            "my past is haunting me",
+            "i wish i could change the past",
+            "regret is killing me",
+            "i feel sorry for my choices"
+        ],
+        "responses": [
+            "Regret is heavy, but every mistake is a lesson. Focus on learning and moving forward. 🌈",
+            "It's normal to feel regret, but don't let it hold you back. Embrace your experiences and grow. 💪",
+            "Your past doesn't define you. Take what you've learned and build a brighter future. 🌟",
+            "Let go of regret and focus on the present moment. You have the power to create a better tomorrow. 🙏"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel addicted to my phone",
+            "social media is stressing me",
+            "im addicted to tech",
+            "can't put my phone down",
+            "tech overload",
+            "my phone won't leave me alone",
+            "im glued to my screen",
+            "phone addiction"
+        ],
+        "responses": [
+            "Social media can be overwhelming sometimes. Maybe try a short digital detox! 📵",
+            "Remember, it's okay to take a break from technology and reconnect with the real world. 🌳",
+            "Setting limits on screen time might help you feel more balanced. Give it a try! ⏳",
+            "Tech overload happens to the best of us—don't forget to look up and enjoy the world around you! 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "i need a change",
+            "im tired of my routine",
+            "life is too repetitive",
+            "i feel stuck in my routine",
+            "bored with my life",
+            "i need something new",
+            "im fed up with the same old thing",
+            "change please"
+        ],
+        "responses": [
+            "Change can be exciting! Even a small tweak in your routine can bring new energy. ✨",
+            "Sometimes stepping out of your comfort zone leads to amazing discoveries. Try something new today! 🌟",
+            "Every day is a chance to change. Embrace the little shifts and see where they take you. 🔄",
+            "Breaking your routine might be just what you need to spark creativity and joy! 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "tell me a romantic quote",
+            "inspire me with love",
+            "share a fun love fact",
+            "romantic inspiration",
+            "give me a love saying",
+            "romantic quote please",
+            "i need love inspiration"
+        ],
+        "responses": [
+            "Here's one: 'In a sea of people, my eyes will always search for you.' 😍",
+            "Remember, 'Love is the light that brightens even the darkest days.' 💡",
+            "Here's a sweet thought: 'Every love story is beautiful, but ours is my favorite.' ❤️",
+            "Love can be magical—'Let your love be like the mist, and the beauty of life be revealed.' ✨"
+        ]
+    },
+    {
+        "patterns": [
+            "how do i set boundaries in a relationship",
+            "my partner doesn't respect my space",
+            "i need personal space",
+            "relationship boundaries",
+            "i feel smothered",
+            "i need some space",
+            "how to communicate my needs",
+            "partner won't give me space"
+        ],
+        "responses": [
+            "It's important to communicate your needs clearly. Setting boundaries shows you value yourself. 🗣️",
+            "A healthy relationship respects personal space. Don't be afraid to express your feelings. ❤️",
+            "Try having an open conversation about what you need—it might help both of you grow closer. 🤝",
+            "Remember, taking time for yourself is essential. A balanced relationship allows both partners to breathe. 🌿"
+        ]
+    },
+    {
+        "patterns": [
+            "i have big dreams",
+            "what should i aspire to",
+            "i want more out of life",
+            "my goals",
+            "i dream of success",
+            "aspirations",
+            "future plans",
+            "i want to change my life"
+        ],
+        "responses": [
+            "Dreams are the fuel for a bright future. Keep reaching for the stars! 🌟",
+            "Every goal starts with a dream. Believe in yourself and chase your aspirations! 🚀",
+            "Remember, every step forward, no matter how small, brings you closer to your dreams. 💭",
+            "Your aspirations define your journey. Stay focused, and never stop growing! 🌱"
+        ]
+    },
+    {
+        "patterns": [
+            "how do i confront someone",
+            "how to have a tough conversation",
+            "im scared to speak up",
+            "i need to talk about a problem",
+            "confrontation is hard",
+            "i dont know how to start a difficult conversation",
+            "i need advice on confrontation"
+        ],
+        "responses": [
+            "It can be challenging to have tough conversations. Try to speak calmly and honestly. 💬",
+            "Starting a difficult conversation takes courage. Express your feelings clearly and respectfully. 😊",
+            "Remember, being honest about your feelings is important. Approach the conversation with empathy. 🤝",
+            "Take your time, and don't be afraid to say what you need to say. Your voice matters. 🗣️"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel burned out",
+            "burnout",
+            "im exhausted from work",
+            "i cant keep up",
+            "work is draining me",
+            "im completely exhausted",
+            "i feel totally burned out"
+        ],
+        "responses": [
+            "Burnout can be overwhelming. Consider taking a break and practicing self-care. 😓",
+            "It's important to rest when you're feeling drained. Remember, you deserve a break. 🌿",
+            "Sometimes, stepping back for a moment can help you recharge. Take care of yourself! ☕",
+            "If you're feeling burned out, try to pace yourself and seek support when needed. 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i have too much homework",
+            "exam stress",
+            "im stressed about my exams",
+            "i failed my exam",
+            "studies are overwhelming",
+            "i feel swamped with school work",
+            "academic pressure is too high"
+        ],
+        "responses": [
+            "School can be really stressful. Try breaking your work into smaller chunks. 📚",
+            "Exams and homework can be tough. Remember to take breaks and breathe. 😊",
+            "It's okay to feel overwhelmed by studies. Focus on one task at a time. 💡",
+            "Remember, you're capable of overcoming academic challenges. Stay strong and ask for help if needed. 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i fear the unknown",
+            "im scared about the future",
+            "uncertainty scares me",
+            "i dont know what lies ahead",
+            "the future is scary",
+            "i feel anxious about what's coming",
+            "i'm afraid of the unknown"
+        ],
+        "responses": [
+            "The future can be uncertain, but every day brings new possibilities. 🌅",
+            "It's normal to feel anxious about the unknown. Take one step at a time. 🚶‍♀️",
+            "Remember, you have the strength to face any challenge that comes your way. 💪",
+            "Embrace uncertainty with hope, and trust that things will work out. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "inspire me",
+            "i need motivation",
+            "give me strength",
+            "im feeling weak",
+            "i need a boost",
+            "i need to be empowered",
+            "motivate me"
+        ],
+        "responses": [
+            "You are stronger than you know. Believe in yourself and keep pushing forward! 💥",
+            "Every challenge is an opportunity to grow. You got this! 🌟",
+            "Remember, your potential is limitless. Stay positive and keep striving. 🚀",
+            "Let your inner light shine bright. You are capable of amazing things! ✨"
+        ]
+    },
+    {
+        "patterns": [
+            "i talk badly about myself",
+            "i am my own worst enemy",
+            "i belittle myself",
+            "negative self talk",
+            "my inner critic is loud",
+            "i criticize myself constantly"
+        ],
+        "responses": [
+            "You deserve kindness, even from yourself! Remember, you're amazing. 😊",
+            "Focus on your strengths and give yourself some love. 💖",
+            "Your inner critic doesn't define you—embrace your worth! 🌟",
+            "Be gentle with yourself; you're doing the best you can. 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "traffic is driving me crazy",
+            "i hate waiting",
+            "everyday annoyances",
+            "i feel irritated by small things",
+            "i get frustrated easily",
+            "little things annoy me"
+        ],
+        "responses": [
+            "Sometimes a deep breath can help ease those frustrations. 🚗💨",
+            "Remember, these little annoyances pass quickly. Try to relax! 😊",
+            "Maybe find a little humor in the chaos—laughter can lighten the mood! 😂",
+            "Take a moment for yourself to reset and let go of the irritation. 🌼"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel drained by social events",
+            "social obligations overwhelm me",
+            "i need a break from people",
+            "i get exhausted by crowds",
+            "too many social interactions",
+            "social fatigue"
+        ],
+        "responses": [
+            "It's perfectly okay to take a break and enjoy some solitude. 🌿",
+            "Remember, you don't have to attend every event—your energy is valuable. 🤗",
+            "Sometimes a little quiet time can do wonders. Take care of yourself! 💖",
+            "You deserve time to recharge and be with yourself. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i don't know who i am",
+            "i feel lost about myself",
+            "what is my identity",
+            "i feel confused about who i am",
+            "i am searching for myself",
+            "i feel disconnected from myself"
+        ],
+        "responses": [
+            "Self-discovery is a journey—take your time to explore what makes you unique. 🌱",
+            "It's okay to feel unsure. Embrace the journey of finding yourself. 💫",
+            "Every experience teaches you something about who you are. Keep exploring! 🔍",
+            "Your identity will unfold with time—trust the process and be patient with yourself. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i can't balance work and life",
+            "work-life balance is hard",
+            "i have no time for myself",
+            "work is taking over my life",
+            "i feel overwhelmed by work",
+            "too much work, no me time"
+        ],
+        "responses": [
+            "It's important to set boundaries and carve out time just for you. 🕒",
+            "Remember, you deserve personal time as much as work time. Take a break! 😊",
+            "Try to schedule downtime to relax and recharge—you deserve it! 🌟",
+            "Balancing work and life is challenging—don't forget to prioritize your well-being. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i compare myself to others",
+            "i feel envious",
+            "i envy others",
+            "i feel inferior",
+            "i always compare",
+            "i feel less than others",
+            "comparison is killing me"
+        ],
+        "responses": [
+            "Remember, your journey is unique. Comparing yourself to others only steals your joy. 😊",
+            "Your worth is not measured by others. Focus on your strengths and celebrate your individuality. 💪",
+            "Everyone has their own path. Embrace what makes you special and let go of envy. ✨",
+            "Try to be grateful for what you have; comparisons can hold you back. 🙏"
+        ]
+    },
+    {
+        "patterns": [
+            "i fear failure",
+            "i'm scared to fail",
+            "fear of failing",
+            "i worry about failing",
+            "failing scares me",
+            "i fear mistakes",
+            "failure terrifies me"
+        ],
+        "responses": [
+            "Failure is a stepping stone to success. Embrace mistakes as lessons. 💡",
+            "Don't be afraid to fail; every failure is a chance to grow and learn. 💪",
+            "Remember, every great achievement began with a failure. Keep trying! 🌟",
+            "Failure doesn't define you—it's just part of the journey. 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "i need to be perfect",
+            "im a perfectionist",
+            "i can't accept mistakes",
+            "i feel bad if im not perfect",
+            "perfectionism is killing me",
+            "i always try to be perfect",
+            "i demand perfection from myself"
+        ],
+        "responses": [
+            "Perfection is an illusion. Embrace your imperfections; they make you unique. 😊",
+            "It's okay not to be perfect. Mistakes are opportunities for growth. 💖",
+            "Your value isn't defined by perfection. Be kind to yourself and celebrate progress. 🤗",
+            "Let go of perfectionism and appreciate the beauty in your journey. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i fear commitment",
+            "i'm scared of committing",
+            "commitment terrifies me",
+            "i can't commit",
+            "i fear long-term relationships",
+            "commitment is scary",
+            "i avoid commitment"
+        ],
+        "responses": [
+            "Commitment can be daunting, but it can also lead to deeper connections. Take it slow. 💞",
+            "It's normal to feel scared about commitment. Trust builds over time. 😊",
+            "Take your time to understand your feelings before making long-term decisions. 🕒",
+            "Every relationship has its own pace—it's okay to move at the speed that feels right for you. 🤝"
+        ]
+    },
+    {
+        "patterns": [
+            "i need inner peace",
+            "i want to be balanced",
+            "how do i find peace",
+            "i feel chaotic",
+            "i need to calm my mind",
+            "i want balance in my life",
+            "life is too hectic",
+            "i feel stressed out by life"
+        ],
+        "responses": [
+            "Finding inner peace is a journey. Try meditation, deep breathing, or a quiet walk. 🧘",
+            "Remember to take time for yourself; balance is key to a happy life. 🌸",
+            "Even small moments of calm can make a big difference. Breathe deeply and relax. 😊",
+            "Focus on the little things that bring you peace, and balance will follow naturally. 🌿"
+        ]
+    },
+    {
+        "patterns": [
+            "my parents don't understand me",
+            "my parents dont get me",
+            "i feel pressured by my family",
+            "my family has high expectations",
+            "i cant live up to my family's standards",
+            "i feel judged by my parents",
+            "family expectations are too high",
+            "my fam is too demanding"
+        ],
+        "responses": [
+            "Family pressure can be tough 😔. Remember, you are unique and your worth isn't defined by others' expectations. 💖",
+            "It's okay to feel overwhelmed by family demands. Try talking about your feelings with someone you trust. 🤗",
+            "You deserve to live life on your own terms. Your dreams matter too! 🌟",
+            "Take a moment for yourself and remember: you are amazing just the way you are. ❤️"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel lonely online",
+            "virtual loneliness",
+            "social media makes me feel isolated",
+            "i feel disconnected even online",
+            "i feel alone on the internet",
+            "digital life is lonely",
+            "i miss real connections",
+            "online life is empty"
+        ],
+        "responses": [
+            "Feeling lonely online is real. Sometimes, stepping away and reaching out in person can help. 📵➡️🤝",
+            "The digital world can feel isolating. Try to connect with someone face-to-face or join a local group. 😊",
+            "Remember, meaningful connections can be found both online and offline. You deserve genuine care. ❤️",
+            "Take a break from the screen and do something that brings you closer to real-life interactions. 🌳"
+        ]
+    },
+    {
+        "patterns": [
+            "my friend changed",
+            "we've grown apart",
+            "my relationship isn't the same",
+            "i feel like we don't connect anymore",
+            "i feel distant from my friend",
+            "i miss the old us",
+            "things aren't like they used to be",
+            "we don't click like before"
+        ],
+        "responses": [
+            "It's natural for relationships to evolve over time. Sometimes people grow in different directions. 🤔",
+            "Changes in relationships can be painful. Consider having an honest talk about how you feel. 💬",
+            "Remember, every phase teaches you something valuable. Embrace the change and learn from it. 🌱",
+            "Even if things have changed, it doesn't diminish the memories you shared. Cherish them. ❤️"
+        ]
+    },
+    {
+        "patterns": [
+            "i graduated and now what",
+            "starting a new job",
+            "career transition is scary",
+            "i feel lost after college",
+            "i don't know what comes next",
+            "i feel uncertain about my future",
+            "my career is in limbo",
+            "i need guidance for my next step"
+        ],
+        "responses": [
+            "Transitions can be scary, but they're also opportunities for growth. Take it one step at a time. 🚀",
+            "It's normal to feel uncertain about the future. Every journey begins with a single step. 🌟",
+            "Embrace the unknown—every experience will lead you closer to what truly fulfills you. 😊",
+            "Remember, you have the strength to carve your own path. Believe in yourself! 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i don't love myself",
+            "i struggle with self-compassion",
+            "i am too hard on myself",
+            "i feel guilty",
+            "i feel unworthy",
+            "my inner critic is too loud",
+            "i can't be kind to myself",
+            "i feel like im not good enough"
+        ],
+        "responses": [
+            "Self-compassion is key. Treat yourself with the same kindness you'd offer a friend. 💕",
+            "You deserve love and care, especially from yourself. Practice gentle self-talk. 😊",
+            "Remember, everyone has flaws—it's what makes you human. Embrace your uniqueness! 🌟",
+            "Be patient with yourself. You are worthy of all the love and kindness in the world. ❤️"
+        ]
+    },
+    {
+        "patterns": [
+            "i hate my body",
+            "im insecure about my looks",
+            "i feel ugly",
+            "my body image sucks",
+            "i don't like how i look",
+            "i feel self-conscious",
+            "i feel unattractive",
+            "my appearance is disappointing"
+        ],
+        "responses": [
+            "You are beautiful inside and out. Embrace your uniqueness! 😍",
+            "Remember, your worth is not defined by your looks. Focus on your inner strength. 💪",
+            "Beauty comes in all forms. Love yourself just as you are. 💖",
+            "It's okay to have insecurities. You are special and worthy of love. 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "i can't stop smoking",
+            "im addicted",
+            "i have bad habits",
+            "i can't break my habit",
+            "my addiction is hurting me",
+            "im stuck in my habits",
+            "i feel enslaved by my addiction",
+            "help me break my bad habit"
+        ],
+        "responses": [
+            "Recognizing a bad habit is the first step. Consider seeking support and professional help. 💪",
+            "Breaking a habit takes time. Small steps can lead to big changes. 🌱",
+            "You are strong enough to overcome this. Reach out to those who can help. 🤝",
+            "Change is difficult, but every effort counts. Stay hopeful and keep trying. 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "i worry about climate change",
+            "the world is falling apart",
+            "im scared for the planet",
+            "i feel anxious about the environment",
+            "global warming is scary",
+            "the future of the planet worries me",
+            "i fear environmental destruction",
+            "i feel helpless about climate issues"
+        ],
+        "responses": [
+            "It's natural to worry about our planet. Remember, even small actions can make a difference. 🌍",
+            "The world faces challenges, but collective effort can lead to positive change. 💚",
+            "Your concern matters. Consider ways to contribute to a healthier environment. 🌿",
+            "Stay informed and take action—every little bit helps our world. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i need spiritual guidance",
+            "i feel lost spiritually",
+            "i have no faith",
+            "i feel empty inside spiritually",
+            "my soul feels cold",
+            "i need to reconnect with my spirit",
+            "i feel spiritually disconnected",
+            "i am searching for faith"
+        ],
+        "responses": [
+            "Spirituality can be a source of comfort in tough times. Take a moment to reflect and find peace. ✨",
+            "It's okay to question and seek. Your spiritual journey is unique and personal. 🙏",
+            "Consider exploring meditation or mindfulness to reconnect with your inner self. 🧘",
+            "Trust that your path will become clearer as you seek inner light and guidance. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "love across cultures",
+            "cultural love",
+            "different traditions in love",
+            "celebrate diversity",
+            "i love learning about different cultures",
+            "global love",
+            "unity in diversity",
+            "multicultural relationships"
+        ],
+        "responses": [
+            "Love transcends borders and cultures. Embrace the beauty of diversity! 🌏❤️",
+            "Every culture has its unique way of expressing love. Celebrate the differences! 🎉",
+            "Diversity enriches love—every story is unique and worth celebrating. 🌈",
+            "Open your heart to different traditions and find joy in the world's colorful tapestry. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i got ghosted",
+            "they stopped replying",
+            "my date ghosted me",
+            "ghosting hurts",
+            "i feel abandoned online",
+            "online dating is tough",
+            "i got stood up",
+            "ghosted by a date"
+        ],
+        "responses": [
+            "Ghosting can be really painful, but often it says more about them than you. Remember, you deserve honesty. 💔➡️❤️",
+            "I'm sorry you experienced ghosting. Clear communication is a sign of respect—you deserve that. 💬",
+            "Sometimes, being ghosted is a sign that you deserve someone who truly values you. Keep shining! ✨",
+            "Online dating can be rough. Don't let ghosting define your self-worth—you are amazing! 😊"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel inadequate on dating apps",
+            "others get more likes",
+            "i compare my profile to others",
+            "i feel less attractive online",
+            "my dating profile sucks",
+            "i feel not good enough for dating"
+        ],
+        "responses": [
+            "Comparing yourself to others can steal your joy. Focus on your unique qualities—you’re one of a kind! 🌟",
+            "Your worth isn't measured by likes or matches. You have so much to offer. 💖",
+            "Online comparisons can be tough, but remember—you are amazing just as you are. Keep being you! 😊",
+            "Don't let social media metrics define you. Embrace your uniqueness and shine! ✨"
+        ]
+    },
+    {
+        "patterns": [
+            "i fear being vulnerable",
+            "opening up is hard",
+            "im scared to show my true self",
+            "i dont know how to be intimate",
+            "i feel exposed when i share my feelings",
+            "vulnerability scares me",
+            "i fear intimacy"
+        ],
+        "responses": [
+            "It takes great courage to be vulnerable, but it's the key to true intimacy. Start small and trust yourself. 💕",
+            "Being open can be scary, but it builds deep connections. You are strong enough for this. 🌟",
+            "Vulnerability is a strength, not a weakness. Let your true self shine gradually. 😊",
+            "Take your time to open up. True connections come when you share who you really are. 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel lonely even when i'm with people",
+            "i feel isolated in a crowd",
+            "surrounded by people but still alone",
+            "i feel empty in social settings",
+            "i feel disconnected"
+        ],
+        "responses": [
+            "Feeling lonely in a crowd can be really tough. Remember, genuine connections take time to build. 🤝",
+            "It's okay to feel disconnected sometimes. Try reaching out to someone you trust. ❤️",
+            "You deserve meaningful relationships—even if you feel alone right now, you're valued. 😊",
+            "Quality over quantity: true friendship is built over time. Keep being open to connections. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i achieved a small goal",
+            "i did something good today",
+            "small wins matter",
+            "i made progress",
+            "celebrate little victories",
+            "i feel proud of myself for this small step"
+        ],
+        "responses": [
+            "Every small win is a step toward success. Celebrate your progress! 🎉",
+            "Small victories add up to big achievements. Keep moving forward! 🌟",
+            "Your progress, no matter how small, is worth celebrating. Great job! 😊",
+            "Be proud of every step you take—each one is a victory on your journey! 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i overthink everything",
+            "my mind won't stop",
+            "i get anxious about decisions",
+            "i worry too much",
+            "i feel paralyzed by choices",
+            "i can't stop my thoughts",
+            "overthinking is killing me",
+            "i get stuck in my head"
+        ],
+        "responses": [
+            "Take a deep breath and try to focus on one step at a time. Your mind deserves a break. 🧘",
+            "Sometimes it's okay not to have all the answers right away. Trust yourself. 😊",
+            "Overthinking can be exhausting. Try writing down your thoughts to clear your mind. 📝",
+            "Remember, it's okay to let go of constant worry. Focus on what you can control. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i have too high expectations",
+            "i expect too much",
+            "my expectations ruin my relationships",
+            "i get disappointed easily in love",
+            "i always expect perfection",
+            "expectations are too high",
+            "i set the bar too high in relationships"
+        ],
+        "responses": [
+            "Sometimes lowering your expectations can help you appreciate the little things. 😊",
+            "Remember, no one is perfect, and that's what makes love beautiful. 💖",
+            "Expectations can create pressure. Try to focus on genuine connection instead. 🌟",
+            "Allow yourself to enjoy love without setting unrealistic standards. 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "social media makes me insecure",
+            "my partner compares me on social media",
+            "i feel judged by social media",
+            "social media is affecting my relationship",
+            "i feel bad because of social media",
+            "online comparisons hurt my love life",
+            "i get insecure from social media"
+        ],
+        "responses": [
+            "Remember, social media is often a highlight reel, not real life. Focus on your true connection. 😊",
+            "Comparisons on social media can be misleading. Your relationship is unique and special. 💕",
+            "Try to disconnect from social media sometimes and focus on genuine interactions. 📵",
+            "Your worth in love isn't determined by likes or comments. Embrace your true self. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i still feel hurt from my past",
+            "my ex still haunts me",
+            "past relationships affect me",
+            "i can't trust because of my past",
+            "old wounds haven't healed",
+            "i feel traumatized by my ex",
+            "my past love hurts me"
+        ],
+        "responses": [
+            "Healing from past hurts takes time. It's okay to seek help and support. 💔➡️💖",
+            "Your past doesn't define your future. Allow yourself the time to heal and trust again. 😊",
+            "Remember, every day is a new opportunity to rebuild trust and find peace. 🌟",
+            "Consider talking to someone who can help you process your emotions. You're not alone. 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "i need my space but i love my partner",
+            "how do i balance independence and love",
+            "i feel torn between being alone and together",
+            "i need time for myself and my relationship",
+            "balancing my own life and my love life is hard",
+            "i struggle with needing space and closeness",
+            "how to be independent in a relationship"
+        ],
+        "responses": [
+            "Finding a balance between independence and togetherness is key to a healthy relationship. 😊",
+            "It's perfectly okay to need personal space while also cherishing your partner. 💖",
+            "Communicate your needs openly—it's important both for you and your relationship. 🗣️",
+            "Remember, a healthy relationship allows you to grow both together and individually. 🌱"
+        ]
+    },
+    {
+        "patterns": [
+            "my friend and i are fighting",
+            "i had a falling out with a friend",
+            "my friend is upset with me",
+            "i think my friend hates me",
+            "i got into a conflict with my friend",
+            "we're arguing all the time",
+            "my friend and i are not getting along"
+        ],
+        "responses": [
+            "Conflicts with friends can be painful. Try to communicate openly and listen to their perspective. 🤝",
+            "Sometimes a sincere conversation can heal the rift. It's okay to apologize if needed. ❤️",
+            "Remember, every relationship has ups and downs. Take a deep breath and talk it out. 😊",
+            "Consider reaching out to your friend to understand their feelings and express your own. 💬"
+        ]
+    },
+    {
+        "patterns": [
+            "i need a new hobby",
+            "i feel bored",
+            "i don't have a passion",
+            "i want to find something i love",
+            "i feel stuck in my routine",
+            "i want to try something new",
+            "i feel uninspired in life"
+        ],
+        "responses": [
+            "Exploring a new hobby can be exciting! Maybe try painting, dancing, or cooking something new. 🎨",
+            "Sometimes a little change in routine can spark creativity and joy. Give it a try! ✨",
+            "Finding a passion takes time. Explore different activities and see what lights you up. 😊",
+            "Every new experience can lead to personal growth. Enjoy the journey of discovery! 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel thankful",
+            "i appreciate life",
+            "i'm grateful",
+            "thankful",
+            "i appreciate you",
+            "thank u for everything",
+            "i count my blessings",
+            "i feel blessed",
+            "grateful for today"
+        ],
+        "responses": [
+            "Gratitude is a powerful tool for happiness. Take a moment to reflect on the good in your life. 🙏",
+            "Every day holds something to be thankful for. Keep counting your blessings! 🌟",
+            "Being grateful can brighten your day and those around you. Thank you for sharing your light. 😊",
+            "Remember, a grateful heart is a happy heart. Embrace the positivity! 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i need a laugh",
+            "life is a joke",
+            "i need humor",
+            "i need something funny",
+            "help me laugh",
+            "i feel like laughing despite the pain",
+            "give me a funny moment"
+        ],
+        "responses": [
+            "Here's a joke: Why don't scientists trust atoms? Because they make up everything! 😂",
+            "Sometimes, laughter is the best medicine. A little humor can brighten your day! 😄",
+            "Remember, even in tough times, a smile can be a powerful tool. Keep laughing! 😊",
+            "Let your laughter shine—it lightens your heart and the hearts of those around you! 🎉"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel different",
+            "i don't fit in",
+            "i feel out of place",
+            "i feel unique",
+            "i feel like an outsider",
+            "i don't belong",
+            "i am different"
+        ],
+        "responses": [
+            "Your uniqueness is what makes you special. Embrace who you are! 🌈",
+            "Not fitting in sometimes is a sign that you're meant to stand out. Celebrate your individuality! 💥",
+            "Being different is a strength. Your unique perspective adds value to the world. 😊",
+            "Don't be afraid to be yourself. Your authenticity is your superpower! 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i don't know what to think",
+            "your signals are confusing",
+            "mixed messages",
+            "i get mixed signals",
+            "i can't read their signals",
+            "they send conflicting messages",
+            "my date's signals are all over the place"
+        ],
+        "responses": [
+            "Mixed signals can be really confusing. It might help to ask for clarity directly. 🤔",
+            "Communication is key when messages are unclear. Consider discussing your feelings openly. 💬",
+            "Don't be afraid to ask for clarity. Understanding each other can ease the confusion. 😊",
+            "Trust your instincts and have an honest conversation about what you need. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i have trust issues",
+            "i can't trust my partner",
+            "how to build trust",
+            "i feel insecure in my relationship",
+            "i worry about betrayal",
+            "trust issues are ruining my love",
+            "i don't know if i can trust",
+            "trust is a problem in my relationship"
+        ],
+        "responses": [
+            "Building trust takes time and honest communication. Try to share your feelings openly. 💖",
+            "Trust is built through small acts of reliability. Focus on consistent actions. 🤝",
+            "It might help to talk about your insecurities with your partner. Open dialogue can strengthen trust. 😊",
+            "Remember, trust is a journey—give yourself time to heal and build confidence. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i fear missing out on other people",
+            "fomo in love",
+            "i worry about what i'm missing",
+            "i feel anxious about other opportunities",
+            "my partner's other interests scare me",
+            "i fear i might be missing out",
+            "fomo is affecting my relationship",
+            "i worry about missing out"
+        ],
+        "responses": [
+            "FOMO can be tough, but focus on the value of your current relationship. 💕",
+            "Try to trust that you're exactly where you need to be. Your love is unique and valuable. 😊",
+            "Remember, every relationship is a journey. Focus on the connection you share rather than what you might be missing. 🌟",
+            "Taking time to appreciate your present can help ease FOMO. Trust in your relationship. 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "i want to express my feelings through art",
+            "creative expression of love",
+            "i feel like writing poetry",
+            "i want to create art to show my emotions",
+            "i feel inspired to create",
+            "art helps me express my heart",
+            "i want to channel my emotions creatively",
+            "i feel artistic when in love"
+        ],
+        "responses": [
+            "Art can be a beautiful way to express your emotions. Let your creativity flow! 🎨",
+            "Writing or creating art can help you process your feelings. Embrace your inner artist. 😊",
+            "Expressing yourself through art is a powerful form of healing. Enjoy the creative journey. ✨",
+            "Your creative expression is unique—let it shine as a reflection of your heart. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i keep thinking about my ex",
+            "i can't let go of the past",
+            "past loves haunt me",
+            "i struggle with moving on",
+            "my past overshadows my present",
+            "i can't stop thinking about old relationships",
+            "i feel stuck in past memories",
+            "i can't move forward because of my ex"
+        ],
+        "responses": [
+            "It's natural to remember past loves, but focusing on the present can help you heal. 🌅",
+            "Letting go of the past is a process. Consider talking to someone who can help guide you. 🤗",
+            "Your past is a part of you, but it doesn't have to define your future. Embrace the now. 💖",
+            "Remember, every day is a new chance to create a better future. Take it one step at a time. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i always procrastinate",
+            "i can't get things done",
+            "i feel lazy",
+            "i delay tasks",
+            "procrastination is ruining my life",
+            "i keep putting things off",
+            "i never finish my work",
+            "i waste time"
+        ],
+        "responses": [
+            "Breaking tasks into small, manageable steps can help you overcome procrastination. 💪",
+            "Try setting a timer and focus on one task for a short period—it can really boost your productivity! ⏱️",
+            "Remember, every little step forward counts. You got this! 😊",
+            "Focus on progress, not perfection. Celebrate each completed task! 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel lonely during holidays",
+            "holidays make me sad",
+            "i hate holidays because i'm alone",
+            "i feel isolated during the holidays",
+            "i feel empty during festive times",
+            "holiday loneliness",
+            "i feel abandoned during holidays"
+        ],
+        "responses": [
+            "Holidays can be tough when you're feeling alone. Remember, it's okay to feel this way. ❤️",
+            "Consider reaching out to someone or joining a community event—it might brighten your holiday. 😊",
+            "You deserve warmth and connection, especially during festive times. Stay strong. 🌟",
+            "Try to create your own traditions that bring you joy during the holidays. 🎄"
+        ]
+    },
+    {
+        "patterns": [
+            "i get angry with my partner",
+            "i shout at my loved ones",
+            "i lose my temper with family",
+            "i get really mad at those i love",
+            "my anger hurts my relationships",
+            "i get upset and yell at my loved ones"
+        ],
+        "responses": [
+            "It's normal to get angry sometimes, but try taking a deep breath before reacting. 🧘",
+            "When emotions run high, taking a short break can help calm things down. ⏸️",
+            "Remember, it's important to communicate your feelings calmly, even when you're upset. 💬",
+            "If you feel you've hurt someone, a sincere apology can go a long way. 🤝"
+        ]
+    },
+    {
+        "patterns": [
+            "i lost my pet",
+            "my pet died",
+            "i miss my pet",
+            "i am grieving for my pet",
+            "i feel empty without my pet",
+            "i lost my dog",
+            "i lost my cat",
+            "my pet is gone"
+        ],
+        "responses": [
+            "Losing a pet is incredibly painful. Cherish the happy memories you shared. 🐾💔",
+            "It's okay to grieve the loss of your beloved pet. Your feelings are valid. 😢",
+            "Remember, your pet will always hold a special place in your heart. ❤️",
+            "Take your time to heal and honor your pet's memory. They were a true friend. 🐶🐱"
+        ]
+    },
+    {
+        "patterns": [
+            "i want to enjoy life",
+            "i need to find joy in the little things",
+            "how do i be happy daily",
+            "help me appreciate everyday moments",
+            "i feel numb",
+            "i want to find happiness in small things",
+            "i struggle to find joy",
+            "i need more happiness in my life"
+        ],
+        "responses": [
+            "Finding joy in everyday moments can be as simple as noticing the beauty around you. 🌸",
+            "Try practicing mindfulness—focus on the present and appreciate the little things. 😊",
+            "Even small moments of happiness can add up. Look for joy in your daily routine. 🌟",
+            "Remember, happiness is a journey. Celebrate the little victories and cherish each moment. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i always mess things up",
+            "i sabotage my own success",
+            "i get in my own way",
+            "i self-sabotage",
+            "my habits are holding me back",
+            "i ruin my own chances"
+        ],
+        "responses": [
+            "It sounds like you're struggling with self-sabotage. Remember, you deserve success and happiness. Try to identify small habits that hold you back and work on changing them step by step. 💪😊",
+            "Don't be too hard on yourself. Every mistake is a chance to learn and grow. You have the power to change your patterns! 🌱",
+            "Self-sabotage can be tough, but every small win counts. Celebrate your progress and forgive yourself for setbacks. 💖",
+            "You're capable of amazing things. Focus on your strengths and take positive steps forward. ✨"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel uncertain about my relationship",
+            "i don't know where we stand",
+            "our relationship is unstable",
+            "i feel confused about our future",
+            "uncertainty in love",
+            "i feel insecure about our commitment"
+        ],
+        "responses": [
+            "Relationships can be confusing sometimes. Consider having an honest conversation with your partner to get clarity. 💬",
+            "Feeling uncertain is natural. Try to discuss your feelings openly and work together to build trust. ❤️",
+            "It might help to set aside some time to talk about your future and expectations. Communication is key! 😊",
+            "Remember, uncertainty is a part of love. Take it one step at a time and trust your instincts. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel socially burned out",
+            "too many parties exhaust me",
+            "social burnout",
+            "i need a social detox",
+            "i feel drained by social events",
+            "social gatherings make me tired"
+        ],
+        "responses": [
+            "It's okay to take a break from social activities. You deserve time to recharge. 🛌",
+            "Social burnout is real. Prioritize your well-being and don't be afraid to say no when you need rest. 😊",
+            "Remember, it's perfectly fine to step back and focus on self-care. Your energy matters! 🌿",
+            "Take some time for yourself to recharge—quality rest will help you enjoy social time later. ✨"
+        ]
+    },
+    {
+        "patterns": [
+            "i worry about money",
+            "financial anxiety",
+            "i fear financial instability",
+            "i am stressed about money",
+            "i worry about my finances",
+            "money stress"
+        ],
+        "responses": [
+            "Financial worries can be really stressful. Try to create a budget and plan your expenses—it might help ease your anxiety. 💡",
+            "Remember, it's okay to seek advice or support for managing your finances. You're not alone in this. 🤝",
+            "Small steps, like saving a little each month, can lead to big improvements over time. Stay positive! 🌟",
+            "Your financial situation is temporary. With careful planning, you can overcome these challenges. 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "change scares me",
+            "i don't like change",
+            "uncertainty makes me nervous",
+            "i fear the unknown",
+            "i get anxious about change",
+            "i hate change"
+        ],
+        "responses": [
+            "Change can be intimidating, but it often leads to growth and new opportunities. Embrace it step by step! 🌱",
+            "It's okay to feel nervous about the unknown. Try to view change as a chance to evolve and learn. 😊",
+            "Remember, every change brings new possibilities. Trust that you can handle whatever comes your way. ✨",
+            "Take small steps towards embracing change. Focus on the potential positives it can bring. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i got rejected in love",
+            "my crush rejected me",
+            "i feel unwanted",
+            "i got turned down",
+            "rejection hurts",
+            "i feel rejected in love",
+            "my love was rejected"
+        ],
+        "responses": [
+            "I'm really sorry you faced rejection in love. Remember, rejection doesn't define your worth. ❤️",
+            "Rejection is tough, but it opens the door for someone better to come along. Keep your head up! 🌟",
+            "It hurts now, but every rejection is a step closer to the right match. Stay strong! 😊",
+            "Your worth isn't determined by one person's opinion. Keep shining, and the right love will find you. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i struggle with setbacks",
+            "i feel defeated by challenges",
+            "life keeps knocking me down",
+            "i can't bounce back",
+            "i feel overwhelmed by setbacks",
+            "setbacks make me feel weak"
+        ],
+        "responses": [
+            "Every setback is an opportunity to learn and grow. You are stronger than you think! 💪",
+            "Challenges are stepping stones to success. Keep pushing forward. 🌟",
+            "It's okay to stumble sometimes. What's important is that you keep getting up. 😊",
+            "Remember, resilience is built through adversity. Believe in your ability to overcome. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel insecure about myself",
+            "i don't believe in myself",
+            "i have low self-esteem",
+            "i doubt my worth",
+            "i feel unworthy",
+            "my self-image is negative",
+            "i feel bad about myself"
+        ],
+        "responses": [
+            "You are unique and valuable just as you are. Embrace your strengths! 🌟",
+            "Every day is a new opportunity to love yourself a little more. You deserve kindness, especially from yourself. 💕",
+            "Remember, your worth is inherent. Celebrate your individuality and let your light shine! 😊",
+            "Focus on what makes you special. You have so much to offer the world. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i struggle to express my feelings to my friends",
+            "i don't know how to talk to my friends",
+            "communication with my friends is hard",
+            "i can't open up to my friends",
+            "my friends don't understand me",
+            "i find it hard to share with my friends"
+        ],
+        "responses": [
+            "Opening up can be challenging, but true friends will listen and care. Try sharing a little bit at a time. 😊",
+            "Expressing your feelings honestly is the key to deeper connections. Your friends might surprise you. 🤗",
+            "Sometimes, writing down your thoughts can help you communicate them better. Give it a try! 💬",
+            "Remember, it's okay to be vulnerable with those who care about you. Your feelings matter. ❤️"
+        ]
+    },
+    {
+        "patterns": [
+            "i fear change",
+            "change makes me anxious",
+            "i hate changes in my life",
+            "i am scared of new beginnings",
+            "i resist change",
+            "i don't like change"
+        ],
+        "responses": [
+            "Change is often the beginning of something beautiful. Embrace it as an opportunity for growth. 🌱",
+            "It's normal to fear change, but each new beginning can lead to wonderful opportunities. 😊",
+            "Try to view change as a chance to evolve and learn. You might be pleasantly surprised by what comes next. ✨",
+            "Remember, growth happens when we step out of our comfort zone. Trust that change can bring positive results. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i got rejected for a job",
+            "my project was not approved",
+            "i feel undervalued at work",
+            "i lost a promotion",
+            "i failed an interview",
+            "job rejection is crushing me"
+        ],
+        "responses": [
+            "Professional setbacks can be tough, but each rejection is a stepping stone to success. Keep learning and moving forward! 💼💪",
+            "It's normal to feel disappointed when things don't work out at work. Use it as motivation for your next opportunity! 🌟",
+            "Remember, every setback is a setup for a comeback. Your skills and talents will shine through next time. 😊",
+            "Don't let a job rejection define your worth. You have so much to offer, and the right opportunity will come along. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i enjoy being alone",
+            "solitude empowers me",
+            "i feel strong when i'm by myself",
+            "being alone is my strength",
+            "i find peace in solitude",
+            "i love my own company"
+        ],
+        "responses": [
+            "Embracing solitude can be incredibly empowering. Enjoy your time with yourself! 🌿😊",
+            "Being alone doesn't mean being lonely. It means you're comfortable in your own skin. 💫",
+            "Solitude is a great opportunity for self-reflection and growth. Cherish it! 🌟",
+            "Loving your own company is a sign of true strength. Keep nurturing that bond with yourself. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i lack self-discipline",
+            "i struggle to stick to my goals",
+            "i can't stay focused",
+            "i give up too easily",
+            "self-discipline is hard for me",
+            "i have no willpower"
+        ],
+        "responses": [
+            "Self-discipline takes time to develop. Start with small, achievable goals and celebrate progress! 🎯",
+            "Remember, consistency is key. Each day is a new opportunity to build your discipline. 💪",
+            "It's okay to struggle sometimes. Set clear goals and break them into smaller steps. 😊",
+            "Focus on progress rather than perfection. Your efforts will lead to lasting change. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel like a fraud",
+            "i doubt my accomplishments",
+            "i feel like an impostor",
+            "i don't deserve my success",
+            "i think i'm not good enough despite my achievements",
+            "im an impostor"
+        ],
+        "responses": [
+            "Impostor syndrome is more common than you think. Your achievements are real—believe in your worth! 🌟",
+            "Remember, you earned your success through hard work. Don't discount your accomplishments. 💪",
+            "It's okay to feel self-doubt sometimes, but know that you are capable and deserving of success. 😊",
+            "Embrace your achievements and let go of self-doubt. You are more than enough! 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i work too hard",
+            "i neglect my self-care for success",
+            "i sacrifice my health for ambition",
+            "i feel burnt out by my drive",
+            "my ambition is affecting my well-being",
+            "i can't balance work and self-care"
+        ],
+        "responses": [
+            "Ambition is great, but don't forget to take care of yourself along the way. Balance is key! 🌟",
+            "Remember, success is best enjoyed when you're healthy and happy. Make time for self-care. 😊",
+            "Your well-being is just as important as your goals. Prioritize rest and relaxation. 💖",
+            "It's okay to slow down and recharge. A balanced life fuels long-term success! 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel depressed in winter",
+            "i get winter blues",
+            "i feel down during winter",
+            "seasonal affective disorder",
+            "i feel gloomy in winter",
+            "winter depression"
+        ],
+        "responses": [
+            "Winter can be challenging, but even small doses of sunlight and a brisk walk can help lift your mood. ☀️",
+            "Consider light therapy or spending time outdoors to beat the winter blues. ❄️",
+            "It might be tough during the cold months, but remember, brighter days are ahead. Hang in there! 😊",
+            "Try to incorporate warm activities or hobbies during winter. Your well-being matters! 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i spend too much time online",
+            "digital life is consuming me",
+            "i need to unplug",
+            "i feel addicted to my screen",
+            "i overuse my phone",
+            "i can't disconnect",
+            "i'm glued to my device"
+        ],
+        "responses": [
+            "Taking breaks from the digital world can help restore balance. Try to schedule some offline time! 📵",
+            "Remember, life is more than just screens. A digital detox might refresh your mind. 😊",
+            "Set specific times to unplug and enjoy real-life moments. Your mental health matters! 🌿",
+            "Consider turning off notifications and engaging in offline activities to regain balance. 💡"
+        ]
+    },
+    {
+        "patterns": [
+            "i had a milestone",
+            "i achieved something big",
+            "celebrate my success",
+            "i accomplished a goal",
+            "i reached a milestone",
+            "i made progress"
+        ],
+        "responses": [
+            "Every milestone, big or small, deserves celebration. Keep shining! 🎉",
+            "Congratulations on your achievement! Celebrate your progress and keep moving forward. 🌟",
+            "Acknowledging your success is important. Take a moment to celebrate your hard work. 😊",
+            "Every step forward is a victory. Embrace and celebrate your achievements! 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i need to journal my feelings",
+            "journaling helps me cope",
+            "i want to start a journal",
+            "writing down my thoughts helps",
+            "i feel better when i write",
+            "i want to express myself through writing"
+        ],
+        "responses": [
+            "Journaling can be a powerful tool to process your emotions. Give it a try! 📝",
+            "Writing down your thoughts can bring clarity and peace. Start your journal today! 😊",
+            "Expressing yourself on paper can be therapeutic. Let your thoughts flow freely. 💖",
+            "Consider journaling as a way to reflect and grow. Your feelings matter and deserve to be heard. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i can't forgive myself",
+            "i feel guilty about my past",
+            "i can't let go of my mistakes",
+            "self-forgiveness is hard",
+            "i feel like i don't deserve forgiveness",
+            "i blame myself constantly"
+        ],
+        "responses": [
+            "Forgiving yourself is essential for healing. Recognize your mistakes, learn, and grow from them. ❤️",
+            "It's okay to be imperfect. Embrace self-forgiveness and move forward with love for yourself. 😊",
+            "Self-forgiveness is a journey—take it one step at a time. You deserve to be kind to yourself. 🌟",
+            "Remember, everyone makes mistakes. You deserve the chance to heal and find peace within. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel pressured by my peers",
+            "peer pressure is too much",
+            "my friends expect me to do things i don't like",
+            "i feel forced to conform",
+            "social pressure is overwhelming",
+            "i feel judged by my peers",
+            "peer expectations are high",
+            "i feel like i have to fit in"
+        ],
+        "responses": [
+            "Remember, you are unique and don't have to conform to others' expectations. Stay true to yourself! 🌟",
+            "It's important to make choices that feel right for you, even if they differ from the crowd. 😊",
+            "Peer pressure can be tough, but your individuality is your strength. Embrace it! 💖",
+            "Trust your own values and don't let others dictate your path. You are amazing as you are! 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel creatively blocked",
+            "i can't come up with ideas",
+            "my creativity is stuck",
+            "i feel uninspired",
+            "i need a creative spark",
+            "i have a creative block",
+            "i feel stuck artistically",
+            "i can't think creatively"
+        ],
+        "responses": [
+            "Sometimes taking a short break or a walk can help unlock your creativity. Give it a try! 🎨",
+            "Remember, creativity flows in cycles. Allow yourself some time to recharge and ideas will come. ✨",
+            "Try exploring new perspectives or hobbies to reignite your creative spark. 😊",
+            "Every creative block is temporary. Trust that inspiration is just around the corner! 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i worry about the future of the planet",
+            "environmental issues stress me",
+            "i feel anxious about pollution",
+            "i fear for nature",
+            "i feel overwhelmed by environmental problems",
+            "climate change scares me",
+            "i worry about global warming",
+            "environmental anxiety"
+        ],
+        "responses": [
+            "It's natural to be concerned about the environment. Remember, even small actions can make a big difference. 🌍",
+            "Channel your concerns into positive actions, like recycling or supporting green initiatives. 🌿",
+            "Take a deep breath and focus on what you can control. Every effort counts! 😊",
+            "Your concern is important. Stay informed and engage with your community to drive change. 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel smothered by my friends",
+            "my friends don't respect my space",
+            "i need boundaries with my friends",
+            "i feel overwhelmed by social demands",
+            "my friends are too clingy",
+            "i need personal space from my friends",
+            "i feel crowded by my friends",
+            "my friends invade my space"
+        ],
+        "responses": [
+            "Setting boundaries is essential for healthy friendships. It's okay to ask for space. 😊",
+            "True friends will understand and respect your need for personal time. 💖",
+            "Communicate your needs openly—it's important both for you and your friendship. 🤝",
+            "Remember, it's perfectly fine to prioritize your well-being. You deserve time for yourself. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel lost with all the uncertainty",
+            "life is unpredictable",
+            "i can't handle the unknown",
+            "uncertainty makes me anxious",
+            "i struggle with unpredictability",
+            "i feel overwhelmed by the unknown",
+            "life's uncertainties stress me out",
+            "i feel unsettled by uncertainty"
+        ],
+        "responses": [
+            "Uncertainty is a part of life. Try to focus on what you can control and take things one step at a time. 😊",
+            "It's okay to feel unsettled by the unknown. Embrace small changes and trust the process. 🌱",
+            "Remember, every challenge is an opportunity for growth. Take one day at a time. 🌟",
+            "Focus on the present moment, and allow yourself to adapt as life unfolds. You got this! 💪"
+        ]
+    },
+    {
+        "patterns": [
+            "someone complimented me",
+            "i got complimented",
+            "unexpected compliment",
+            "compliments make me shy",
+            "i don't know how to react to compliments"
+        ],
+        "responses": [
+            "Compliments are a reflection of the beauty others see in you. Embrace them! 😊",
+            "It feels good to receive compliments—remember, you're truly amazing! 🌟",
+            "Don't be shy; take compliments as a sign that you shine in others' eyes. 💖",
+            "Let those kind words boost your confidence—you deserve every compliment! 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "i get hurt by online comments",
+            "cyberbullying",
+            "online hate",
+            "i feel bullied online",
+            "negative comments hurt me"
+        ],
+        "responses": [
+            "Online negativity often says more about the sender than you. Stay strong! 💪",
+            "Remember, you are valued, and online hate doesn't define you. 🌟",
+            "Focus on the positive and ignore the trolls. Your worth is beyond their words. 😊",
+            "You deserve kindness—don't let online negativity bring you down. 💖"
+        ]
+    },
+    {
+        "patterns": [
+            "i don't know if my friends care",
+            "uncertainty in friendships",
+            "am i a true friend",
+            "i feel insecure about my friends",
+            "my friends seem distant"
+        ],
+        "responses": [
+            "True friendship has its ups and downs. Trust that genuine bonds endure. 🤝",
+            "Sometimes friends need space, but that doesn't mean they don't care. Keep communication open. 😊",
+            "Friendship can be complex. Focus on quality, not quantity. Your feelings matter. 💕",
+            "Remember, real friends will always be there for you, even if things feel uncertain. 🌟"
+        ]
+    },
+    {
+        "patterns": [
+            "i feel overwhelmed by parties",
+            "i am an introvert",
+            "social events drain me",
+            "i need alone time",
+            "i prefer quiet time",
+            "i don't like crowded places"
+        ],
+        "responses": [
+            "It's okay to need alone time. Embrace your introverted nature—it makes you unique. 😊",
+            "Balancing social events with personal time is important. Listen to your needs. 🌿",
+            "There's strength in knowing your limits. Enjoy your quiet moments; they recharge you. 💖",
+            "Your well-being comes first. It's perfectly fine to opt out of crowded events. 🤗"
+        ]
+    },
+    {
+        "patterns": [
+            "i overcame a challenge",
+            "i bounced back",
+            "i survived a tough time",
+            "i am resilient",
+            "i beat the odds",
+            "i overcame my struggles"
+        ],
+        "responses": [
+            "Your resilience is truly inspiring! Celebrate your strength and progress. 🎉",
+            "Every challenge you overcome makes you stronger. Keep shining! 🌟",
+            "Be proud of your journey—you've shown incredible resilience. 😊",
+            "Your ability to bounce back is a testament to your inner strength. Keep going! 💖"
+        ]
+    }
+]

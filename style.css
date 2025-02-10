@@ -1,69 +1,180 @@
 body {
-    background: linear-gradient(135deg, #ffe6e6, #ffcccc);
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding-top: 50px;
-  }
-  
-  .chat-container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .chat-panel {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .panel-heading {
-    background-color: #d9534f;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.5em;
-  }
-  
-  #chat-area {
-    height: 350px;
-    overflow-y: auto;
-    background: #fff;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .user-message, .AI-message {
-    max-width: 80%;
-    margin-bottom: 15px;
-    padding: 10px 15px;
-    border-radius: 20px;
-    line-height: 1.4em;
+  background: linear-gradient(135deg, #ffe6e6, #ffcccc); /* A softer gradient */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 20px;
+  overflow-x: hidden; /* prevent horizontal scroll on smaller screens */
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.chat-panel {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
+  border-radius: 15px; /* More rounded corners */
+  overflow: hidden;
+}
+
+.panel-heading {
+  background-color: #e91e63; /* A brighter, more Valentine's-y red */
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.5em;
+  border-bottom: 2px solid #c2185b; /* Add a subtle border */
+}
+
+#chat-area {
+  height: 485px;
+  overflow-y: auto;
+  background: #f9f9f9; /* A very light gray background */
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0 0 15px 15px; /* Round the bottom corners to match the panel */
+}
+
+.user-message,
+.AI-message {
+  max-width: 80%;
+  margin-bottom: 15px;
+  padding: 12px 18px; /* Slightly larger padding */
+  border-radius: 25px; /* More rounded message bubbles */
+  line-height: 1.4em;
+  word-wrap: break-word; /* Prevent long words from breaking the layout */
+}
+
+.user-message {
+  background-color: #d1c4e9; /* Light purple for user messages */
+  margin-left: auto;
+  text-align: right;
+  color: #311b92; /* Dark purple text */
+  animation: slideInRight 0.3s ease-out forwards; /* Slide-in animation */
+  opacity: 0; /* Hidden initially for animation */
+}
+
+.AI-message {
+  background-color: #ffcdd2; /* Light pink for AI messages */
+  margin-right: auto;
+  text-align: left;
+  color: #b71c1c; /* Dark red text */
+  animation: slideInLeft 0.3s ease-out forwards; /* Slide-in animation */
+  opacity: 0; /* Hidden initially for animation */
+}
+
+/* Animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(50px);
     opacity: 0;
-    animation: fadeIn 0.5s forwards;
   }
-  
-  .user-message {
-    background-color: #d9edf7;
-    margin-left: auto;
-    text-align: right;
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
-  
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Custom scrollbar */
+#chat-area::-webkit-scrollbar {
+  width: 10px;
+}
+
+#chat-area::-webkit-scrollbar-thumb {
+  background-color: #e91e63;
+  border-radius: 5px;
+}
+
+#chat-area::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.panel-footer {
+  padding: 5px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px; /* Match the chat area */
+}
+
+.input-group {
+  position: relative;
+  width: 80%;
+}
+
+#user-input {
+  border-radius: 25px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  resize: none; /* Prevent manual resizing of the textarea */
+}
+
+#user-input:focus {
+  outline: none;
+  border-color: #e91e63; /* Highlight the border on focus */
+  box-shadow: 0 0 5px rgba(233, 30, 99, 0.5); /* Add a subtle shadow */
+}
+
+.input-group-btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#send-button {
+  border-radius: 40%; /* Make it circular */
+  width: 60px;
+  height: 40px;
+  padding: 0;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 1;
+  border: none;
+  background-color: #e91e63;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+
+}
+
+#send-button:hover {
+  background-color: #c2185b;
+}
+
+#send-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(233, 30, 99, 0.7);
+}
+
+/*Responsive Design*/
+@media (max-width: 768px) {
+  .chat-container {
+    width: 95vw;
+    margin: 0 auto; /* Center the container */
+    padding: 0;
+  }
+
+  .chat-panel{
+    margin: 0;
+  }
+
+  #chat-area {
+    height: 75vh; /*Adjust this value as needed*/
+  }
+
+  .user-message,
   .AI-message {
-    background-color: #f7e1e1;
-    margin-right: auto;
-    text-align: left;
+    max-width: 90%; /* Take up more width on smaller screens */
   }
-  
-  @keyframes fadeIn {
-    to { opacity: 1; }
-  }
-  
-  /* Custom scrollbar */
-  #chat-area::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  #chat-area::-webkit-scrollbar-thumb {
-    background-color: #d9534f;
-    border-radius: 4px;
-  }
-  
+}
