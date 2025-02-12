@@ -50,6 +50,24 @@
     },
     {
         "patterns": [
+            "i am feeling bad",
+            "i feel down",
+            "i'm not okay",
+            "i'm sad",
+            "i'm depressed",
+            "i feel terrible",
+            "i feel blue"
+        ],
+        "responses": [
+            "I'm sorry to hear that. Do you want to talk about it?",
+            "I'm here for you. You're not alone!",
+            "I hope things get better for you. Sending positive vibes!",
+            "Take a deep breath. I'm here to chat if you need to talk.",
+            "It's okay to feel that way sometimes. What’s on your mind?"
+        ]
+    },
+    {
+        "patterns": [
             "i love you",
             "luv u",
             "i luv u",

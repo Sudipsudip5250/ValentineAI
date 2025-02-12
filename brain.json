@@ -14,7 +14,11 @@
             "are you listening me",
             "are you listning me",
             "what's up",
-            "sup"
+            "sup",
+            "heyy",
+            "helo",
+            "hii",
+            "yo"
         ],
         "responses": [
             "Hello there! How can I help you today? 😊",
@@ -27,18 +31,23 @@
     {
         "patterns": [
             "are you listening",
-            "are you listening me",
-            "you there",
+            "are you listening to me",
+            "you there?",
             "hey, are you listening",
             "are you listning me",
             "hello, are you there",
-            "sir, you listening?"
+            "are you still here?",
+            "are you active?",
+            "is someone there?",
+            "can you hear me?"
         ],
         "responses": [
-            "Yes, I'm here and listening closely. 👂",
-            "I'm right here—what's on your mind? 💭",
+            "Yes, I'm here and always listening! What’s on your mind? 😊",
+            "I'm right here! Tell me what’s going on. 💡",
+            "Of course, I’m here for you! How can I help? 💬",
             "Always listening! Tell me what's up. 🗣️",
-            "I'm here for you, go ahead and share. 💖"
+            "I'm here for you, go ahead and share. 💖",
+            "Listening closely! Feel free to share anything. 💖"
         ]
     },
     {
@@ -52,13 +61,26 @@
             "miss you",
             "i miss u",
             "i miss you so much",
-            "feelin low"
+            "feelin low",
+            "i'm feeling terrible",
+            "i feel awful",
+            "i dont feel good",
+            "i am not okay",
+            "i fele sad",
+            "i am feling bad",
+            "i am crying",
+            "i am not happy",
+            "i feel broken",
+            "i feel empty"
         ],
         "responses": [
             "I'm really sorry you're feeling this way. I'm here if you need someone to talk to. 💔",
             "It sounds like you're having a tough time. Remember, it's okay to feel sad—I'm here for you. 😢",
             "I understand that pain. Sometimes sharing can lighten the load. What's been bothering you? 🌧️➡️🌤️",
-            "I'm here to listen, and I care about how you're feeling. You're not alone. 🤗"
+            "I'm here to listen, and I care about how you're feeling. You're not alone. 🤗",
+            "I care about how you're feeling. What happened that made you feel this way? 🥺",
+            "Sometimes it helps to talk things out. Do you want to share what’s bothering you? 💖",
+            "I wish I could give you a hug. Just remember, even on dark days, you're valued and loved. 🤗"
         ]
     },
     {
@@ -217,6 +239,26 @@
             "Sometimes, the weight of life can be unbearable, but you're not alone. Reach out to someone who cares. 🤝",
             "It might feel dark now, but there is always hope. You matter so much. ❤️",
             "Every day is a new chance to find strength. Please consider talking to someone you trust. 🌈"
+        ]
+    },
+    {
+        "patterns": [
+            "who are you",
+            "what's your name",
+            "tell me about yourself",
+            "who are yu",
+            "who r u",
+            "about you",
+            "say about you",
+            "what can you do",
+            "explain yourself",
+            "what is your identity"
+        ],
+        "responses": [
+            "I'm your AI companion, here to chat, listen, and support you! 😊",
+            "You can call me your digital friend. I'm here to make your day better! 🤖",
+            "I'm an AI designed to chat and be there for you. How can I help today? 💬",
+            "Think of me as a friend in digital form. What would you like to talk about? 🤗"
         ]
     },
     {

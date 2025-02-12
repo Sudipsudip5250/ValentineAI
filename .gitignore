@@ -1,2 +1,5 @@
-
 sample.json
+train_valentine_ai.py
+train_valentine_ai_v2.py
+chatbot_model.h5
+chatbot_model_v2.h5
