@@ -1,65 +1,278 @@
+/* General Styles */
 body {
-  background: linear-gradient(135deg, #ffe6e6, #ffcccc); /* A softer gradient */
+  background: linear-gradient(135deg, #ffe6e6, #ffcccc);
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding-top: 20px;
-  overflow-x: hidden; /* prevent horizontal scroll on smaller screens */
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Chat Container */
 .chat-container {
   max-width: 600px;
+  width: 100%;
   margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
+/* Chat Panel */
 .chat-panel {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
-  border-radius: 15px; /* More rounded corners */
+  background: #fff5f9 url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100"><path fill="%23ffd1dc" d="M28.1 36.9c-5.6 0-10.2-4.6-10.2-10.2 0-7.1 10.2-18 10.2-18s10.2 10.8 10.2 18c0 5.6-4.6 10.2-10.2 10.2z"/><path fill="%23ffb3c8" d="M71.9 36.9c-5.6 0-10.2-4.6-10.2-10.2 0-7.1 10.2-18 10.2-18s10.2 10.8 10.2 18c0 5.6-4.6 10.2-10.2 10.2z"/></svg>');
+  background-size: 150px;
+  background-blend-mode: soft-light;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   overflow: hidden;
+  position: relative;
 }
 
+/* Panel Heading */
 .panel-heading {
-  background-color: #e91e63; /* A brighter, more Valentine's-y red */
+  background: linear-gradient(45deg, #ff4d6d, #ff8fab);
   color: #fff;
   text-align: center;
   padding: 15px;
   font-size: 1.5em;
-  border-bottom: 2px solid #c2185b; /* Add a subtle border */
+  border-bottom: 2px solid #c2185b;
+  position: relative;
 }
 
+.panel-heading::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 10px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ffffff"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Chat Area with Fixed Background */
 #chat-area {
-  height: 485px;
-  overflow-y: auto;
-  background: #f9f9f9; /* A very light gray background */
+  height: 400px;
+  overflow-y: auto;  /* Enables vertical scrolling */
+  overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+  background: linear-gradient(180deg, rgba(255, 230, 239, 0.9), rgba(255, 204, 221, 0.9)), 
+              url('https://www.transparenttextures.com/patterns/flowers.png'); /* Subtle floral pattern */
+  background-size: cover;
+  background-attachment: fixed; /* Prevents background from moving */
   padding: 20px;
   border-bottom: 1px solid #ddd;
-  border-radius: 0 0 15px 15px; /* Round the bottom corners to match the panel */
+  border-radius: 0 0 15px 15px;
+  position: relative;
+  backdrop-filter: blur(10px); /* Smooth glass effect */
+  box-shadow: inset 0 0 10px rgba(255, 77, 109, 0.2);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;  /* Ensures messages are stacked properly */
+  overflow-anchor: none; /* Prevents unwanted shifting */
+}
+
+/* Ensure messages never overflow */
+.user-message,
+.AI-message {
+  max-width: 85%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  position: relative;
+}
+
+/* Custom Scrollbar */
+#chat-area::-webkit-scrollbar {
+  width: 8px;
+}
+
+#chat-area::-webkit-scrollbar-track {
+  background: rgba(255, 230, 239, 0.5); /* Light pink track */
+  border-radius: 10px;
+}
+
+#chat-area::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #ff4d6d, #ff8fab);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#chat-area::-webkit-scrollbar-thumb:hover {
+  background: #ff2b5e;
+}
+
+/* Glowing Effect at Top & Bottom */
+#chat-area::before,
+#chat-area::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background: linear-gradient(to bottom, rgba(255, 77, 109, 0.3), transparent);
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#chat-area::before {
+  top: 0;
+  opacity: 1;
+}
+
+#chat-area::after {
+  bottom: 0;
+  background: linear-gradient(to top, rgba(255, 77, 109, 0.3), transparent);
+  opacity: 1;
+}
+
+/* Hide glow when fully scrolled */
+#chat-area.scrolled-top::before {
+  opacity: 0;
+}
+
+#chat-area.scrolled-bottom::after {
+  opacity: 0;
+}
+
+/* 🌸 Floating Animated Flowers */
+.flower {
+  position: absolute;
+  font-size: 20px;
+  opacity: 0.6;
+  animation: floatUp 5s linear infinite;
+  pointer-events: none;
+}
+
+/* Flower Animation */
+@keyframes floatUp {
+  from {
+    transform: translateY(0px);
+    opacity: 0.6;
+  }
+  to {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
+
+/* Smooth Scroll */
+@keyframes smoothScroll {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .user-message,
 .AI-message {
+  animation: smoothScroll 0.4s ease-in-out;
+}
+
+/* Message Bubbles */
+.user-message,
+.AI-message {
   max-width: 80%;
   margin-bottom: 15px;
-  padding: 12px 18px; /* Slightly larger padding */
-  border-radius: 25px; /* More rounded message bubbles */
+  padding: 12px 18px;
+  border-radius: 25px;
   line-height: 1.4em;
-  word-wrap: break-word; /* Prevent long words from breaking the layout */
+  word-wrap: break-word;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(255, 77, 109, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .user-message {
-  background-color: #d1c4e9; /* Light purple for user messages */
+  background: #ffe6ef;
+  border: 1px solid #ffb3c8;
   margin-left: auto;
   text-align: right;
-  color: #311b92; /* Dark purple text */
-  animation: slideInRight 0.3s ease-out forwards; /* Slide-in animation */
-  opacity: 0; /* Hidden initially for animation */
+  color: #311b92;
+  animation: slideInRight 0.3s ease-out forwards;
+}
+
+.user-message::after {
+  content: '💖';
+  position: absolute;
+  right: -25px;
+  bottom: 5px;
+  font-size: 1.2em;
 }
 
 .AI-message {
-  background-color: #ffcdd2; /* Light pink for AI messages */
+  background: #fff0f5;
+  border: 1px solid #ff99b3;
   margin-right: auto;
   text-align: left;
-  color: #b71c1c; /* Dark red text */
-  animation: slideInLeft 0.3s ease-out forwards; /* Slide-in animation */
-  opacity: 0; /* Hidden initially for animation */
+  color: #b71c1c;
+  animation: slideInLeft 0.3s ease-out forwards;
+}
+
+.AI-message::before {
+  content: '🌸';
+  position: absolute;
+  left: -25px;
+  bottom: 5px;
+  font-size: 1.2em;
+}
+
+/* Input Area */
+.panel-footer {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 0 0 15px 15px;
+}
+
+.input-group {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#user-input {
+  flex: 1;
+  border-radius: 25px;
+  padding: 10px 5px;
+  border: 2px solid #ffd1dc;
+  resize: none;
+  background: #fff8fb;
+  transition: all 0.3s ease;
+}
+
+#user-input:focus {
+  outline: none;
+  border-color: #ff4d6d;
+  box-shadow: 0 0 10px rgba(255, 77, 109, 0.2);
+}
+
+#send-button {
+  border-radius: 50%;
+  /* width: 40px; */
+  height: 40px;
+  padding: 10px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+#send-button:hover {
+  background: #ff002b;
+  transform: scale(1.1);
 }
 
 /* Animations */
@@ -85,96 +298,69 @@ body {
   }
 }
 
-/* Custom scrollbar */
-#chat-area::-webkit-scrollbar {
-  width: 10px;
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(20deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
 }
 
-#chat-area::-webkit-scrollbar-thumb {
-  background-color: #e91e63;
-  border-radius: 5px;
-}
-
-#chat-area::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-.panel-footer {
-  padding: 5px;
-  width: 100%;
-  background-color: #fff;
-  border-radius: 0 0 15px 15px; /* Match the chat area */
-}
-
-.input-group {
-  position: relative;
-  width: 80%;
-}
-
-#user-input {
-  border-radius: 25px;
-  padding: 10px 15px;
-  border: 1px solid #ccc;
-  resize: none; /* Prevent manual resizing of the textarea */
-}
-
-#user-input:focus {
-  outline: none;
-  border-color: #e91e63; /* Highlight the border on focus */
-  box-shadow: 0 0 5px rgba(233, 30, 99, 0.5); /* Add a subtle shadow */
-}
-
-.input-group-btn {
+/* Floating Hearts */
+.chat-panel::after {
+  content: '💗';
   position: absolute;
-  right: 5px;
-  top: 50%;
-  transform: translateY(-50%);
+  font-size: 24px;
+  animation: float 3s ease-in-out infinite;
+  opacity: 0.2;
 }
 
-#send-button {
-  border-radius: 40%; /* Make it circular */
-  width: 60px;
-  height: 40px;
-  padding: 0;
-  margin-left: 20px;
-  text-align: center;
-  line-height: 1;
-  border: none;
-  background-color: #e91e63;
-  color: white;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.2s ease;
+.chat-panel::after:nth-child(1) { left: 10%; top: 15%; }
+.chat-panel::after:nth-child(2) { left: 30%; top: 25%; animation-delay: 0.5s; }
+.chat-panel::after:nth-child(3) { right: 20%; top: 35%; animation-delay: 1s; }
 
-}
-
-#send-button:hover {
-  background-color: #c2185b;
-}
-
-#send-button:focus {
-  outline: none;
-  box-shadow: 0 0 5px rgba(233, 30, 99, 0.7);
-}
-
-/*Responsive Design*/
+/* Responsive Design */
 @media (max-width: 768px) {
   .chat-container {
-    width: 95vw;
-    margin: 0 auto; /* Center the container */
-    padding: 0;
-  }
-
-  .chat-panel{
-    margin: 0;
+    width: 95%;
+    padding: 10px;
   }
 
   #chat-area {
-    height: 75vh; /*Adjust this value as needed*/
+    height: 60vh;
   }
 
   .user-message,
   .AI-message {
-    max-width: 90%; /* Take up more width on smaller screens */
+    max-width: 90%;
   }
+
+  .panel-heading {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .chat-container {
+    width: 100%;
+    padding: 5px;
+  }
+
+  #chat-area {
+    height: 50vh;
+  }
+
+  .user-message,
+  .AI-message {
+    max-width: 95%;
+    padding: 10px 15px;
+  }
+
+  .panel-heading {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  #user-input {
+    padding: 8px 12px;
+  }
+
 }
